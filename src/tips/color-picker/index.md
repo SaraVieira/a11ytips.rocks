@@ -1,6 +1,7 @@
 ---
 title: Contrast ratio in the Color Picker
 featuredImage: './color-picker.gif'
+date: '2018-09-02T23:46:37.121Z'
 slug: color-picker
 link: https://developers.google.com/web/updates/2018/01/devtools#contrast
 ---

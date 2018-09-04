@@ -1,6 +1,7 @@
 ---
 title: Axe Coconut
 featuredImage: './axe.gif'
+date: '2018-09-02T23:46:37.121Z'
 slug: axe
 link: https://chrome.google.com/webstore/detail/axe-coconut/iobddmbdndbbbfjopjdgadphaoihpojp?hl=en
 ---

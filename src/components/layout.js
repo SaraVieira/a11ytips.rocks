@@ -32,7 +32,7 @@ const Template = ({ location, children }) => (
     </header>
     <main>{children}</main>
     <footer>
-      Made with ❤️ and ☕️ by{' '}
+      Made with ❤️, ☕️ and Gatsby by{' '}
       <a target="_blank" href="https://iamsaravieira.com">
         Sara Vieira
       </a>{' '}

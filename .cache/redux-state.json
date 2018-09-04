@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "828cccd23ad2b61a99789eb9e8488f26",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1396,89 +1387,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-feed": {
-      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-feed",
-      "id": "Plugin gatsby-plugin-feed",
-      "name": "gatsby-plugin-feed",
-      "version": "2.0.0-rc.2",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onPostBuild"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-feed",
-      "packageJson": {
-        "name": "gatsby-plugin-feed",
-        "description": "Creates an RSS feed for your Gatsby site.",
-        "version": "2.0.0-rc.2",
-        "main": "index.js",
-        "keywords": [
-          "atom",
-          "feed",
-          "gatsby",
-          "gatsby-plugin",
-          "rss"
-        ],
-        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "lodash.merge",
-            "version": "^4.6.0"
-          },
-          {
-            "name": "mkdirp",
-            "version": "^0.5.1"
-          },
-          {
-            "name": "pify",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "rss",
-            "version": "^1.2.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "a28d57aa92896e70178875bea3d94ec2",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-manifest": {
       "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
@@ -1727,7 +1635,7 @@
       "resolve": "/Users/saravieira/Projects/a11ytips.rocks",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "c282a91eef62c94b872d9dde85c97eec",
+      "version": "f716a3796da3ae21ca8f48b18e790220",
       "pluginOptions": {
         "plugins": []
       },
@@ -1902,7 +1810,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7d0c21ef729ab63ec9c4a7137a102c10",
+        "contentDigest": "b476a69dff1b26b9d5ada634fa43783a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2006,16 +1914,14 @@
         "description": "A website full of of sweet a11y tips",
         "siteUrl": "https://a11ytips.rocks"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-04T15:42:37.258Z",
+      "buildTime": "2018-09-04T15:48:44.452Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5596f6c1e48b58995a94ced17a051297",
+        "contentDigest": "96b3d782341aa40c2061b359ea610cf6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2025,7 +1931,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f764ce1e88d7df1be14592aa56edac0d",
+        "contentDigest": "a16e392b6a0a5099716c8b715c9ddf17",
         "type": "Directory",
         "description": "Directory \"src/tips\"",
         "owner": "gatsby-source-filesystem"
@@ -2037,7 +1943,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-09-04T15:37:09.891Z",
-      "accessTime": "2018-09-04T15:42:42.033Z",
+      "accessTime": "2018-09-04T15:48:46.482Z",
       "changeTime": "2018-09-04T15:37:09.891Z",
       "birthTime": "2018-09-04T12:51:46.319Z",
       "root": "/",
@@ -2055,21 +1961,65 @@
       "blksize": 4194304,
       "ino": 4701825,
       "blocks": 0,
-      "atimeMs": 1536075762033.3892,
+      "atimeMs": 1536076126482.1245,
       "mtimeMs": 1536075429890.7546,
       "ctimeMs": 1536075429890.7546,
       "birthtimeMs": 1536065506318.857,
-      "atime": "2018-09-04T15:42:42.033Z",
+      "atime": "2018-09-04T15:48:46.482Z",
       "mtime": "2018-09-04T15:37:09.891Z",
       "ctime": "2018-09-04T15:37:09.891Z",
       "birthtime": "2018-09-04T12:51:46.319Z"
+    },
+    "4d1a1035-f922-58fe-a2ab-88a3dbccd016": {
+      "id": "4d1a1035-f922-58fe-a2ab-88a3dbccd016",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b51663894d2a0b5eb83b0023352494af",
+        "type": "Directory",
+        "description": "Directory \"src/tips/axe-coconut\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
+      "relativePath": "axe-coconut",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-04T15:42:34.576Z",
+      "accessTime": "2018-09-04T15:48:46.484Z",
+      "changeTime": "2018-09-04T15:42:34.576Z",
+      "birthTime": "2018-09-04T15:37:09.891Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+      "base": "axe-coconut",
+      "ext": "",
+      "name": "axe-coconut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4762601,
+      "blocks": 0,
+      "atimeMs": 1536076126483.8079,
+      "mtimeMs": 1536075754575.5547,
+      "ctimeMs": 1536075754575.5547,
+      "birthtimeMs": 1536075429890.736,
+      "atime": "2018-09-04T15:48:46.484Z",
+      "mtime": "2018-09-04T15:42:34.576Z",
+      "ctime": "2018-09-04T15:42:34.576Z",
+      "birthtime": "2018-09-04T15:37:09.891Z"
     },
     "66946518-3fbc-5b55-9691-b2e0bded7b59": {
       "id": "66946518-3fbc-5b55-9691-b2e0bded7b59",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0cc0536d3efe1508559697119febf8a5",
+        "contentDigest": "15d33fa607e6b7cbf7f00141f935eaf7",
         "type": "Directory",
         "description": "Directory \"src/tips/color-picker\"",
         "owner": "gatsby-source-filesystem"
@@ -2081,7 +2031,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-09-04T14:55:28.926Z",
-      "accessTime": "2018-09-04T15:42:42.035Z",
+      "accessTime": "2018-09-04T15:48:46.484Z",
       "changeTime": "2018-09-04T14:55:28.926Z",
       "birthTime": "2018-09-04T14:55:20.489Z",
       "root": "/",
@@ -2099,11 +2049,11 @@
       "blksize": 4194304,
       "ino": 4755373,
       "blocks": 0,
-      "atimeMs": 1536075762035.1794,
+      "atimeMs": 1536076126483.8142,
       "mtimeMs": 1536072928925.8508,
       "ctimeMs": 1536072928925.8508,
       "birthtimeMs": 1536072920488.6606,
-      "atime": "2018-09-04T15:42:42.035Z",
+      "atime": "2018-09-04T15:48:46.484Z",
       "mtime": "2018-09-04T14:55:28.926Z",
       "ctime": "2018-09-04T14:55:28.926Z",
       "birthtime": "2018-09-04T14:55:20.489Z"
@@ -2113,7 +2063,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3fb8da004c2371903f7e96f15743376f",
+        "contentDigest": "b46f73c6ae6ad56f27ce553e1d96aee4",
         "type": "Directory",
         "description": "Directory \"src/tips/lynx-browser\"",
         "owner": "gatsby-source-filesystem"
@@ -2125,7 +2075,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-09-04T13:00:56.532Z",
-      "accessTime": "2018-09-04T15:42:42.035Z",
+      "accessTime": "2018-09-04T15:48:46.484Z",
       "changeTime": "2018-09-04T13:00:56.532Z",
       "birthTime": "2018-09-04T12:51:46.323Z",
       "root": "/",
@@ -2143,44 +2093,44 @@
       "blksize": 4194304,
       "ino": 4701833,
       "blocks": 0,
-      "atimeMs": 1536075762035.1865,
+      "atimeMs": 1536076126483.8372,
       "mtimeMs": 1536066056532.2346,
       "ctimeMs": 1536066056532.2346,
       "birthtimeMs": 1536065506322.9246,
-      "atime": "2018-09-04T15:42:42.035Z",
+      "atime": "2018-09-04T15:48:46.484Z",
       "mtime": "2018-09-04T13:00:56.532Z",
       "ctime": "2018-09-04T13:00:56.532Z",
       "birthtime": "2018-09-04T12:51:46.323Z"
     },
-    "d7148366-d433-5f17-b9bb-86d649bb8d31": {
-      "id": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+    "de18acde-884b-59c5-aa25-533135b7b8e7": {
+      "id": "de18acde-884b-59c5-aa25-533135b7b8e7",
       "children": [
-        "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7"
+        "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dd6733de646b01af98d07be70b492981",
+        "contentDigest": "97eba15c6f931679058daffb4c0d6e79",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"src/tips/lynx-browser/index.md\"",
+        "description": "File \"src/tips/axe-coconut/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "tips",
-      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md",
-      "relativePath": "lynx-browser/index.md",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md",
+      "relativePath": "axe-coconut/index.md",
       "extension": "md",
-      "size": 284,
-      "prettySize": "284 B",
-      "modifiedTime": "2018-09-04T13:26:49.875Z",
-      "accessTime": "2018-09-04T15:11:28.148Z",
-      "changeTime": "2018-09-04T13:26:49.875Z",
-      "birthTime": "2018-09-04T12:51:46.323Z",
+      "size": 425,
+      "prettySize": "425 B",
+      "modifiedTime": "2018-09-04T15:47:19.720Z",
+      "accessTime": "2018-09-04T15:47:37.423Z",
+      "changeTime": "2018-09-04T15:47:19.720Z",
+      "birthTime": "2018-09-04T15:10:03.983Z",
       "root": "/",
-      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "relativeDirectory": "lynx-browser",
+      "relativeDirectory": "axe-coconut",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2188,16 +2138,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 4701834,
+      "ino": 4762602,
       "blocks": 8,
-      "atimeMs": 1536073888147.5251,
-      "mtimeMs": 1536067609875.016,
-      "ctimeMs": 1536067609875.016,
-      "birthtimeMs": 1536065506322.9705,
-      "atime": "2018-09-04T15:11:28.148Z",
-      "mtime": "2018-09-04T13:26:49.875Z",
-      "ctime": "2018-09-04T13:26:49.875Z",
-      "birthtime": "2018-09-04T12:51:46.323Z"
+      "atimeMs": 1536076057423.17,
+      "mtimeMs": 1536076039720.2427,
+      "ctimeMs": 1536076039720.2427,
+      "birthtimeMs": 1536073803982.6223,
+      "atime": "2018-09-04T15:47:37.423Z",
+      "mtime": "2018-09-04T15:47:19.720Z",
+      "ctime": "2018-09-04T15:47:19.720Z",
+      "birthtime": "2018-09-04T15:10:03.983Z"
     },
     "4eb76315-3e02-5cca-887b-da7999c7f49d": {
       "id": "4eb76315-3e02-5cca-887b-da7999c7f49d",
@@ -2206,7 +2156,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2d4e72ae96f85a953ba2ddb7810b7778",
+        "contentDigest": "af54b1d8bdc80cf8db63b896de907e97",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/tips/color-picker/index.md\"",
@@ -2216,11 +2166,11 @@
       "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/index.md",
       "relativePath": "color-picker/index.md",
       "extension": "md",
-      "size": 376,
-      "prettySize": "376 B",
-      "modifiedTime": "2018-09-04T15:10:03.983Z",
-      "accessTime": "2018-09-04T15:11:28.147Z",
-      "changeTime": "2018-09-04T15:10:03.983Z",
+      "size": 409,
+      "prettySize": "409 B",
+      "modifiedTime": "2018-09-04T15:47:23.949Z",
+      "accessTime": "2018-09-04T15:47:37.423Z",
+      "changeTime": "2018-09-04T15:47:23.949Z",
       "birthTime": "2018-09-04T13:26:49.875Z",
       "root": "/",
       "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
@@ -2237,35 +2187,83 @@
       "blksize": 4194304,
       "ino": 4755375,
       "blocks": 8,
-      "atimeMs": 1536073888147.3958,
-      "mtimeMs": 1536073803982.6223,
-      "ctimeMs": 1536073803982.6223,
+      "atimeMs": 1536076057423.3396,
+      "mtimeMs": 1536076043948.9583,
+      "ctimeMs": 1536076043948.9583,
       "birthtimeMs": 1536067609875.016,
-      "atime": "2018-09-04T15:11:28.147Z",
-      "mtime": "2018-09-04T15:10:03.983Z",
-      "ctime": "2018-09-04T15:10:03.983Z",
+      "atime": "2018-09-04T15:47:37.423Z",
+      "mtime": "2018-09-04T15:47:23.949Z",
+      "ctime": "2018-09-04T15:47:23.949Z",
       "birthtime": "2018-09-04T13:26:49.875Z"
     },
-    "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7": {
-      "id": "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7",
-      "children": [],
-      "parent": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+    "d7148366-d433-5f17-b9bb-86d649bb8d31": {
+      "id": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+      "children": [
+        "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
+        "contentDigest": "d56ee4aa475f7f14c0023c19885efee1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/tips/lynx-browser/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md",
+      "relativePath": "lynx-browser/index.md",
+      "extension": "md",
+      "size": 317,
+      "prettySize": "317 B",
+      "modifiedTime": "2018-09-04T15:47:28.964Z",
+      "accessTime": "2018-09-04T15:48:46.484Z",
+      "changeTime": "2018-09-04T15:47:28.964Z",
+      "birthTime": "2018-09-04T12:51:46.323Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "lynx-browser",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4701834,
+      "blocks": 8,
+      "atimeMs": 1536076126483.9744,
+      "mtimeMs": 1536076048963.856,
+      "ctimeMs": 1536076048963.856,
+      "birthtimeMs": 1536065506322.9705,
+      "atime": "2018-09-04T15:48:46.484Z",
+      "mtime": "2018-09-04T15:47:28.964Z",
+      "ctime": "2018-09-04T15:47:28.964Z",
+      "birthtime": "2018-09-04T12:51:46.323Z"
+    },
+    "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18": {
+      "id": "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18",
+      "children": [],
+      "parent": "de18acde-884b-59c5-aa25-533135b7b8e7",
+      "internal": {
+        "content": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "2ea9dd178912af3eac96b11fbe81f975",
+        "contentDigest": "7432a5ca3eb38b73c5869dc22c5c8f66",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "Lynx Browser",
-        "featuredImage": "./lynx.png",
-        "slug": "lynx-browser",
-        "link": "https://lynx.browser.org/",
-        "_PARENT": "d7148366-d433-5f17-b9bb-86d649bb8d31"
+        "title": "Axe Coconut",
+        "featuredImage": "./axe.gif",
+        "date": "2018-09-02T23:46:37.121Z",
+        "slug": "axe",
+        "link": "https://chrome.google.com/webstore/detail/axe-coconut/iobddmbdndbbbfjopjdgadphaoihpojp?hl=en",
+        "_PARENT": "de18acde-884b-59c5-aa25-533135b7b8e7"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
-      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md"
+      "rawMarkdownBody": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
+      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md"
     },
     "5c291f73-ddbc-5f65-8727-321a1ac50fb2": {
       "id": "5c291f73-ddbc-5f65-8727-321a1ac50fb2",
@@ -2274,12 +2272,13 @@
       "internal": {
         "content": "\nThe first step to ensure an acessible website is to have enough color contrast in your colors so that everyone can read and the contrast ratio in the chrome dev tools color picker is a huge help.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "f762031fc04e68fb5d8e0c0d92ef302c",
+        "contentDigest": "1e1a4183b431f8bb2cf03f04b5f54172",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "Contrast ratio in the Color Picker",
         "featuredImage": "./color-picker.gif",
+        "date": "2018-09-02T23:46:37.121Z",
         "slug": "color-picker",
         "link": "https://developers.google.com/web/updates/2018/01/devtools#contrast",
         "_PARENT": "4eb76315-3e02-5cca-887b-da7999c7f49d"
@@ -2287,6 +2286,28 @@
       "excerpt": "",
       "rawMarkdownBody": "\nThe first step to ensure an acessible website is to have enough color contrast in your colors so that everyone can read and the contrast ratio in the chrome dev tools color picker is a huge help.\n",
       "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/index.md"
+    },
+    "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7": {
+      "id": "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7",
+      "children": [],
+      "parent": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+      "internal": {
+        "content": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6f86600abe6f7b8cb4d08414f03aa0d9",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Lynx Browser",
+        "featuredImage": "./lynx.png",
+        "slug": "lynx-browser",
+        "link": "https://lynx.browser.org/",
+        "date": "2018-09-02T23:46:37.121Z",
+        "_PARENT": "d7148366-d433-5f17-b9bb-86d649bb8d31"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
+      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md"
     },
     "5c2f7dd1-b2e8-528c-a233-b24e607eef19": {
       "id": "5c2f7dd1-b2e8-528c-a233-b24e607eef19",
@@ -2308,7 +2329,7 @@
       "size": 761794,
       "prettySize": "762 kB",
       "modifiedTime": "2018-09-04T13:00:56.532Z",
-      "accessTime": "2018-09-04T15:15:55.686Z",
+      "accessTime": "2018-09-04T15:47:42.997Z",
       "changeTime": "2018-09-04T13:00:56.533Z",
       "birthTime": "2018-09-04T13:00:53.433Z",
       "root": "/",
@@ -2326,11 +2347,11 @@
       "blksize": 4194304,
       "ino": 4737151,
       "blocks": 1488,
-      "atimeMs": 1536074155686.2493,
+      "atimeMs": 1536076062996.7712,
       "mtimeMs": 1536066056532,
       "ctimeMs": 1536066056532.8228,
       "birthtimeMs": 1536066053432.9336,
-      "atime": "2018-09-04T15:15:55.686Z",
+      "atime": "2018-09-04T15:47:42.997Z",
       "mtime": "2018-09-04T13:00:56.532Z",
       "ctime": "2018-09-04T13:00:56.533Z",
       "birthtime": "2018-09-04T13:00:53.433Z"
@@ -2344,163 +2365,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "6189d2a0-7849-5da6-97fe-8f946574a1f3": {
-      "id": "6189d2a0-7849-5da6-97fe-8f946574a1f3",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "aaee596ce106df30b71ee74228f5065b",
-        "type": "File",
-        "mediaType": "image/gif",
-        "description": "File \"src/tips/color-picker/color-picker.gif\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "tips",
-      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/color-picker.gif",
-      "relativePath": "color-picker/color-picker.gif",
-      "extension": "gif",
-      "size": 10029756,
-      "prettySize": "10 MB",
-      "modifiedTime": "2018-09-04T14:55:28.970Z",
-      "accessTime": "2018-09-04T15:11:28.147Z",
-      "changeTime": "2018-09-04T14:55:28.972Z",
-      "birthTime": "2018-09-04T14:55:28.926Z",
-      "root": "/",
-      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
-      "base": "color-picker.gif",
-      "ext": ".gif",
-      "name": "color-picker",
-      "relativeDirectory": "color-picker",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4755391,
-      "blocks": 19592,
-      "atimeMs": 1536073888147.353,
-      "mtimeMs": 1536072928969.741,
-      "ctimeMs": 1536072928971.5808,
-      "birthtimeMs": 1536072928925.8394,
-      "atime": "2018-09-04T15:11:28.147Z",
-      "mtime": "2018-09-04T14:55:28.970Z",
-      "ctime": "2018-09-04T14:55:28.972Z",
-      "birthtime": "2018-09-04T14:55:28.926Z"
-    },
-    "4d1a1035-f922-58fe-a2ab-88a3dbccd016": {
-      "id": "4d1a1035-f922-58fe-a2ab-88a3dbccd016",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3acccefeb1b87730f6b5baa38e2315a2",
-        "type": "Directory",
-        "description": "Directory \"src/tips/axe-coconut\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "tips",
-      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
-      "relativePath": "axe-coconut",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-09-04T15:42:34.576Z",
-      "accessTime": "2018-09-04T15:42:42.035Z",
-      "changeTime": "2018-09-04T15:42:34.576Z",
-      "birthTime": "2018-09-04T15:37:09.891Z",
-      "root": "/",
-      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
-      "base": "axe-coconut",
-      "ext": "",
-      "name": "axe-coconut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4762601,
-      "blocks": 0,
-      "atimeMs": 1536075762035.1384,
-      "mtimeMs": 1536075754575.5547,
-      "ctimeMs": 1536075754575.5547,
-      "birthtimeMs": 1536075429890.736,
-      "atime": "2018-09-04T15:42:42.035Z",
-      "mtime": "2018-09-04T15:42:34.576Z",
-      "ctime": "2018-09-04T15:42:34.576Z",
-      "birthtime": "2018-09-04T15:37:09.891Z"
-    },
-    "de18acde-884b-59c5-aa25-533135b7b8e7": {
-      "id": "de18acde-884b-59c5-aa25-533135b7b8e7",
-      "children": [
-        "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9f7d75b11c0d714d442f8b52aad731ac",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/tips/axe-coconut/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "tips",
-      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md",
-      "relativePath": "axe-coconut/index.md",
-      "extension": "md",
-      "size": 392,
-      "prettySize": "392 B",
-      "modifiedTime": "2018-09-04T15:42:19.628Z",
-      "accessTime": "2018-09-04T15:42:21.912Z",
-      "changeTime": "2018-09-04T15:42:19.628Z",
-      "birthTime": "2018-09-04T15:10:03.983Z",
-      "root": "/",
-      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "axe-coconut",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 4762602,
-      "blocks": 8,
-      "atimeMs": 1536075741912.3389,
-      "mtimeMs": 1536075739627.908,
-      "ctimeMs": 1536075739627.908,
-      "birthtimeMs": 1536073803982.6223,
-      "atime": "2018-09-04T15:42:21.912Z",
-      "mtime": "2018-09-04T15:42:19.628Z",
-      "ctime": "2018-09-04T15:42:19.628Z",
-      "birthtime": "2018-09-04T15:10:03.983Z"
-    },
-    "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18": {
-      "id": "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18",
-      "children": [],
-      "parent": "de18acde-884b-59c5-aa25-533135b7b8e7",
-      "internal": {
-        "content": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "661d0220751a8ad8e3c25723fb8d9633",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Axe Coconut",
-        "featuredImage": "./axe.gif",
-        "slug": "axe",
-        "link": "https://chrome.google.com/webstore/detail/axe-coconut/iobddmbdndbbbfjopjdgadphaoihpojp?hl=en",
-        "_PARENT": "de18acde-884b-59c5-aa25-533135b7b8e7"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
-      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md"
     },
     "9cd7a09d-f742-5494-8183-ac657102a29d": {
       "id": "9cd7a09d-f742-5494-8183-ac657102a29d",
@@ -2520,7 +2384,7 @@
       "size": 3887688,
       "prettySize": "3.89 MB",
       "modifiedTime": "2018-09-04T15:42:32.329Z",
-      "accessTime": "2018-09-04T15:42:33.900Z",
+      "accessTime": "2018-09-04T15:47:37.423Z",
       "changeTime": "2018-09-04T15:42:32.330Z",
       "birthTime": "2018-09-04T15:42:32.288Z",
       "root": "/",
@@ -2538,14 +2402,79 @@
       "blksize": 4194304,
       "ino": 4762798,
       "blocks": 7600,
-      "atimeMs": 1536075753900.0713,
+      "atimeMs": 1536076057423.1265,
       "mtimeMs": 1536075752329.0754,
       "ctimeMs": 1536075752330.4648,
       "birthtimeMs": 1536075752287.7332,
-      "atime": "2018-09-04T15:42:33.900Z",
+      "atime": "2018-09-04T15:47:37.423Z",
       "mtime": "2018-09-04T15:42:32.329Z",
       "ctime": "2018-09-04T15:42:32.330Z",
       "birthtime": "2018-09-04T15:42:32.288Z"
+    },
+    "6189d2a0-7849-5da6-97fe-8f946574a1f3": {
+      "id": "6189d2a0-7849-5da6-97fe-8f946574a1f3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aaee596ce106df30b71ee74228f5065b",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/tips/color-picker/color-picker.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/color-picker.gif",
+      "relativePath": "color-picker/color-picker.gif",
+      "extension": "gif",
+      "size": 10029756,
+      "prettySize": "10 MB",
+      "modifiedTime": "2018-09-04T14:55:28.970Z",
+      "accessTime": "2018-09-04T15:47:37.423Z",
+      "changeTime": "2018-09-04T14:55:28.972Z",
+      "birthTime": "2018-09-04T14:55:28.926Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
+      "base": "color-picker.gif",
+      "ext": ".gif",
+      "name": "color-picker",
+      "relativeDirectory": "color-picker",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4755391,
+      "blocks": 19592,
+      "atimeMs": 1536076057423.2988,
+      "mtimeMs": 1536072928969.741,
+      "ctimeMs": 1536072928971.5808,
+      "birthtimeMs": 1536072928925.8394,
+      "atime": "2018-09-04T15:47:37.423Z",
+      "mtime": "2018-09-04T14:55:28.970Z",
+      "ctime": "2018-09-04T14:55:28.972Z",
+      "birthtime": "2018-09-04T14:55:28.926Z"
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "de1985c3e2bacf655521c869f04f0799",
+        "description": "Plugin gatsby-plugin-offline",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -2610,23 +2539,23 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "906b3297e780605fdaa53ae29b58c122"
+    "PLUGINS_HASH": "5d1367b3c4021f2d4ca08c7613f8d598"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/"
       ],
-      "5c2f7dd1-b2e8-528c-a233-b24e607eef19": [
-        "/"
-      ],
-      "6482655c-2d7a-578a-ae2d-96333c1c8020": [
+      "9cd7a09d-f742-5494-8183-ac657102a29d": [
         "/"
       ],
       "6189d2a0-7849-5da6-97fe-8f946574a1f3": [
         "/"
       ],
-      "9cd7a09d-f742-5494-8183-ac657102a29d": [
+      "5c2f7dd1-b2e8-528c-a233-b24e607eef19": [
+        "/"
+      ],
+      "6482655c-2d7a-578a-ae2d-96333c1c8020": [
         "/"
       ]
     },
@@ -2640,13 +2569,13 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "14/path---index-6a9-DpitPXotwz89VtDaWGOGl7FMbUI",
+    "index": "654/path---index-6a9-Zh9we6nCzUUo4EAzcAdy6vZtjU",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js": {
+    "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js"
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js"
     },
     "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js": {
       "query": "",

@@ -1,54 +1,54 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import get from 'lodash/get'
+import { graphql } from 'gatsby'
+import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
 
-class BlogIndex extends React.Component {
-  render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const siteDescription = get(
-      this,
-      'props.data.site.siteMetadata.description'
-    )
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+const Body = styled.article`
+  display: flex;
+  align-items: center;
+`
 
-    return (
-      <Layout location={this.props.location}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
-        />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.frontmatter.slug
-          return (
-            <div key={node.frontmatter.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
+const Index = ({
+  data: {
+    allMarkdownRemark,
+    site: {
+      siteMetadata: { title, description },
+    },
+  },
+  location,
+}) => (
+  <Layout location={location}>
+    <Helmet
+      htmlAttributes={{ lang: 'en' }}
+      meta={[{ name: 'description', content: description }]}
+      title={title}
+    />
+    {allMarkdownRemark.edges.map(({ node }) => {
+      return (
+        <Body key={node.frontmatter.slug}>
+          <header>
+            <h3>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={node.frontmatter.link}
               >
-                <a style={{ boxShadow: 'none' }} href={node.frontmatter.link}>
-                  {title}
-                </a>
-              </h3>
-              <Img
-                sizes={node.frontmatter.featuredImage.childImageSharp.sizes}
-              />
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
-      </Layout>
-    )
-  }
-}
-
-export default BlogIndex
+                {node.frontmatter.title}
+              </a>
+            </h3>
+            <p dangerouslySetInnerHTML={{ __html: node.html }} />
+          </header>
+          <figure style={{ width: '100%' }}>
+            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
+          </figure>
+        </Body>
+      )
+    })}
+  </Layout>
+)
 
 export const pageQuery = graphql`
   query {
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
     allMarkdownRemark {
       edges {
         node {
-          excerpt
+          html
           frontmatter {
             slug
             link
@@ -79,3 +79,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default Index

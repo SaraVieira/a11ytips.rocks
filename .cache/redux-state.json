@@ -1,0 +1,2661 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "828cccd23ad2b61a99789eb9e8488f26",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "680ebc9aee8bb6d7da3009b5d3f8f1df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1f2ddae9870892f14cf4a22cd3ee7cec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "91947baa4f7b47ab1571b89ffa65ae67",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3596926d0c31bfeb0712ae94d142134a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ae68d2e7f2eb4a3302525fe9fbc4cb44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1-rc.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+        "name": "tips"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1-rc.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "df43d0485de64d4e851640b78806c9dc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.1-rc.1",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.37",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-images",
+            "id": "Plugin gatsby-remark-copy-images",
+            "name": "gatsby-remark-copy-images",
+            "version": "0.2.1",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-images"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-relative-images",
+            "id": "Plugin gatsby-remark-relative-images",
+            "name": "gatsby-remark-relative-images",
+            "version": "0.1.2",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-relative-images"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "2.0.1-rc.1",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.0-rc.1",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.0.0-rc.2",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.0-rc.1",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.1-rc.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d1a9ed26dbdd643c934eae4f561cef90",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.37",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.37",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c98314a342449ba1a45895dfc021c0d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-images": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-images",
+      "id": "Plugin gatsby-remark-copy-images",
+      "name": "gatsby-remark-copy-images",
+      "version": "0.2.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-copy-images",
+      "packageJson": {
+        "name": "gatsby-remark-copy-images",
+        "description": "Find local images which are referenced from markdown and copy them to the public directory",
+        "version": "0.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>, Seth Fitzsimmons <seth@mojodna.net>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "fs-extra",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a1e4e8fd7de32cd520fa259d72ed042f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-relative-images": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-relative-images",
+      "id": "Plugin gatsby-remark-relative-images",
+      "name": "gatsby-remark-relative-images",
+      "version": "0.1.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-relative-images",
+      "packageJson": {
+        "name": "gatsby-remark-relative-images",
+        "description": "Convert image src(s) in markdown to be relative to their node's parent directory. This will help gatsby-remark-images match images outside the node folder. For example, use with NetlifyCMS.",
+        "version": "0.1.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "relative",
+          "netlifycms",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Daniel Mahon <daniel@mahonstudios.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "cheerio",
+            "version": "1.0.0-rc.2"
+          },
+          {
+            "name": "deep-map",
+            "version": "1.5.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "4.17.5"
+          },
+          {
+            "name": "slash",
+            "version": "2.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "7.0.0-beta.44"
+          },
+          {
+            "name": "cross-env",
+            "version": "5.1.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "97b5154adab8a73c9787bcdf6cc66830",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "2.0.1-rc.1",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.1-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e991e7a0fd172e53fed0d9b01d9e7149",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "66df4ee504e35b5ce1d8bd90c5cf027b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.0.0-rc.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.0.0-rc.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aad10c7e0d0b89a320337d2257b7ff44",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a69d778bfc86c92d7a0f68f6f0b49b37",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.1-rc.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.1-rc.2",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.16.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61caac76e9e17318e3725a20ec627c43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.0-rc.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.0-rc.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "979a5328c1dd02a616ed8aecfa182a6d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d21e7678f3c5cf551734edb83d232f60",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-feed": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-feed",
+      "id": "Plugin gatsby-plugin-feed",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.0-rc.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.0-rc.2",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a28d57aa92896e70178875bea3d94ec2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.2-rc.1",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Blog",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/assets/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.2-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bc6dae2374202c59e111a8cba54bcc37",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.0-rc.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPrefetchPathname",
+        "onServiceWorkerInstalled"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.0-rc.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.4.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6f4f2681417e4e84f40c48a873be9bc1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "277ee62574bdf9a169871a34e64e1f61",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "c282a91eef62c94b872d9dde85c97eec",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks",
+      "packageJson": {
+        "name": "a11y-tips",
+        "description": "A website full of of sweet a11y tips",
+        "version": "1.0.0",
+        "author": "Sara Vieira <hey@iamsaravieira.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.55"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-copy-images",
+            "version": "^0.2.1"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.37"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-relative-images",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "next"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.5"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.5"
+          },
+          {
+            "name": "tacit-css",
+            "version": "^1.3.2"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.7.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7d0c21ef729ab63ec9c4a7137a102c10",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0-rc.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/saravieira/Projects/a11ytips.rocks/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0-rc.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa5b277e66b57dbbdc82a9f96b1c5faf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "A11y Tips",
+        "author": "Sara Vieira",
+        "description": "A website full of of sweet a11y tips",
+        "siteUrl": "https://a11ytips.rocks"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-09-04T15:42:37.258Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5596f6c1e48b58995a94ced17a051297",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f587da35-aa16-5d9f-96ca-cb4b60ccdb29": {
+      "id": "f587da35-aa16-5d9f-96ca-cb4b60ccdb29",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f764ce1e88d7df1be14592aa56edac0d",
+        "type": "Directory",
+        "description": "Directory \"src/tips\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-09-04T15:37:09.891Z",
+      "accessTime": "2018-09-04T15:42:42.033Z",
+      "changeTime": "2018-09-04T15:37:09.891Z",
+      "birthTime": "2018-09-04T12:51:46.319Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src",
+      "base": "tips",
+      "ext": "",
+      "name": "tips",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4701825,
+      "blocks": 0,
+      "atimeMs": 1536075762033.3892,
+      "mtimeMs": 1536075429890.7546,
+      "ctimeMs": 1536075429890.7546,
+      "birthtimeMs": 1536065506318.857,
+      "atime": "2018-09-04T15:42:42.033Z",
+      "mtime": "2018-09-04T15:37:09.891Z",
+      "ctime": "2018-09-04T15:37:09.891Z",
+      "birthtime": "2018-09-04T12:51:46.319Z"
+    },
+    "66946518-3fbc-5b55-9691-b2e0bded7b59": {
+      "id": "66946518-3fbc-5b55-9691-b2e0bded7b59",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0cc0536d3efe1508559697119febf8a5",
+        "type": "Directory",
+        "description": "Directory \"src/tips/color-picker\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
+      "relativePath": "color-picker",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-04T14:55:28.926Z",
+      "accessTime": "2018-09-04T15:42:42.035Z",
+      "changeTime": "2018-09-04T14:55:28.926Z",
+      "birthTime": "2018-09-04T14:55:20.489Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+      "base": "color-picker",
+      "ext": "",
+      "name": "color-picker",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4755373,
+      "blocks": 0,
+      "atimeMs": 1536075762035.1794,
+      "mtimeMs": 1536072928925.8508,
+      "ctimeMs": 1536072928925.8508,
+      "birthtimeMs": 1536072920488.6606,
+      "atime": "2018-09-04T15:42:42.035Z",
+      "mtime": "2018-09-04T14:55:28.926Z",
+      "ctime": "2018-09-04T14:55:28.926Z",
+      "birthtime": "2018-09-04T14:55:20.489Z"
+    },
+    "107b12f7-9130-57ef-a688-096731a990b0": {
+      "id": "107b12f7-9130-57ef-a688-096731a990b0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3fb8da004c2371903f7e96f15743376f",
+        "type": "Directory",
+        "description": "Directory \"src/tips/lynx-browser\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser",
+      "relativePath": "lynx-browser",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-04T13:00:56.532Z",
+      "accessTime": "2018-09-04T15:42:42.035Z",
+      "changeTime": "2018-09-04T13:00:56.532Z",
+      "birthTime": "2018-09-04T12:51:46.323Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+      "base": "lynx-browser",
+      "ext": "",
+      "name": "lynx-browser",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4701833,
+      "blocks": 0,
+      "atimeMs": 1536075762035.1865,
+      "mtimeMs": 1536066056532.2346,
+      "ctimeMs": 1536066056532.2346,
+      "birthtimeMs": 1536065506322.9246,
+      "atime": "2018-09-04T15:42:42.035Z",
+      "mtime": "2018-09-04T13:00:56.532Z",
+      "ctime": "2018-09-04T13:00:56.532Z",
+      "birthtime": "2018-09-04T12:51:46.323Z"
+    },
+    "d7148366-d433-5f17-b9bb-86d649bb8d31": {
+      "id": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+      "children": [
+        "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dd6733de646b01af98d07be70b492981",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/tips/lynx-browser/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md",
+      "relativePath": "lynx-browser/index.md",
+      "extension": "md",
+      "size": 284,
+      "prettySize": "284 B",
+      "modifiedTime": "2018-09-04T13:26:49.875Z",
+      "accessTime": "2018-09-04T15:11:28.148Z",
+      "changeTime": "2018-09-04T13:26:49.875Z",
+      "birthTime": "2018-09-04T12:51:46.323Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "lynx-browser",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4701834,
+      "blocks": 8,
+      "atimeMs": 1536073888147.5251,
+      "mtimeMs": 1536067609875.016,
+      "ctimeMs": 1536067609875.016,
+      "birthtimeMs": 1536065506322.9705,
+      "atime": "2018-09-04T15:11:28.148Z",
+      "mtime": "2018-09-04T13:26:49.875Z",
+      "ctime": "2018-09-04T13:26:49.875Z",
+      "birthtime": "2018-09-04T12:51:46.323Z"
+    },
+    "4eb76315-3e02-5cca-887b-da7999c7f49d": {
+      "id": "4eb76315-3e02-5cca-887b-da7999c7f49d",
+      "children": [
+        "5c291f73-ddbc-5f65-8727-321a1ac50fb2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2d4e72ae96f85a953ba2ddb7810b7778",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/tips/color-picker/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/index.md",
+      "relativePath": "color-picker/index.md",
+      "extension": "md",
+      "size": 376,
+      "prettySize": "376 B",
+      "modifiedTime": "2018-09-04T15:10:03.983Z",
+      "accessTime": "2018-09-04T15:11:28.147Z",
+      "changeTime": "2018-09-04T15:10:03.983Z",
+      "birthTime": "2018-09-04T13:26:49.875Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "color-picker",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4755375,
+      "blocks": 8,
+      "atimeMs": 1536073888147.3958,
+      "mtimeMs": 1536073803982.6223,
+      "ctimeMs": 1536073803982.6223,
+      "birthtimeMs": 1536067609875.016,
+      "atime": "2018-09-04T15:11:28.147Z",
+      "mtime": "2018-09-04T15:10:03.983Z",
+      "ctime": "2018-09-04T15:10:03.983Z",
+      "birthtime": "2018-09-04T13:26:49.875Z"
+    },
+    "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7": {
+      "id": "d5c1174c-60ba-59da-bb09-0e1a1c2fd0e7",
+      "children": [],
+      "parent": "d7148366-d433-5f17-b9bb-86d649bb8d31",
+      "internal": {
+        "content": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2ea9dd178912af3eac96b11fbe81f975",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Lynx Browser",
+        "featuredImage": "./lynx.png",
+        "slug": "lynx-browser",
+        "link": "https://lynx.browser.org/",
+        "_PARENT": "d7148366-d433-5f17-b9bb-86d649bb8d31"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLynx is an amazing way to test your websites for acessability has it is a text only browser so you can see how your content acts and if you can move arround pages and sections\n",
+      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/index.md"
+    },
+    "5c291f73-ddbc-5f65-8727-321a1ac50fb2": {
+      "id": "5c291f73-ddbc-5f65-8727-321a1ac50fb2",
+      "children": [],
+      "parent": "4eb76315-3e02-5cca-887b-da7999c7f49d",
+      "internal": {
+        "content": "\nThe first step to ensure an acessible website is to have enough color contrast in your colors so that everyone can read and the contrast ratio in the chrome dev tools color picker is a huge help.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f762031fc04e68fb5d8e0c0d92ef302c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Contrast ratio in the Color Picker",
+        "featuredImage": "./color-picker.gif",
+        "slug": "color-picker",
+        "link": "https://developers.google.com/web/updates/2018/01/devtools#contrast",
+        "_PARENT": "4eb76315-3e02-5cca-887b-da7999c7f49d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThe first step to ensure an acessible website is to have enough color contrast in your colors so that everyone can read and the contrast ratio in the chrome dev tools color picker is a huge help.\n",
+      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/index.md"
+    },
+    "5c2f7dd1-b2e8-528c-a233-b24e607eef19": {
+      "id": "5c2f7dd1-b2e8-528c-a233-b24e607eef19",
+      "children": [
+        "6482655c-2d7a-578a-ae2d-96333c1c8020"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9e91331f93675e181f1151cfac1c0590",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/tips/lynx-browser/lynx.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser/lynx.png",
+      "relativePath": "lynx-browser/lynx.png",
+      "extension": "png",
+      "size": 761794,
+      "prettySize": "762 kB",
+      "modifiedTime": "2018-09-04T13:00:56.532Z",
+      "accessTime": "2018-09-04T15:15:55.686Z",
+      "changeTime": "2018-09-04T13:00:56.533Z",
+      "birthTime": "2018-09-04T13:00:53.433Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/lynx-browser",
+      "base": "lynx.png",
+      "ext": ".png",
+      "name": "lynx",
+      "relativeDirectory": "lynx-browser",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4737151,
+      "blocks": 1488,
+      "atimeMs": 1536074155686.2493,
+      "mtimeMs": 1536066056532,
+      "ctimeMs": 1536066056532.8228,
+      "birthtimeMs": 1536066053432.9336,
+      "atime": "2018-09-04T15:15:55.686Z",
+      "mtime": "2018-09-04T13:00:56.532Z",
+      "ctime": "2018-09-04T13:00:56.533Z",
+      "birthtime": "2018-09-04T13:00:53.433Z"
+    },
+    "6482655c-2d7a-578a-ae2d-96333c1c8020": {
+      "id": "6482655c-2d7a-578a-ae2d-96333c1c8020",
+      "children": [],
+      "parent": "5c2f7dd1-b2e8-528c-a233-b24e607eef19",
+      "internal": {
+        "contentDigest": "9e91331f93675e181f1151cfac1c0590",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6189d2a0-7849-5da6-97fe-8f946574a1f3": {
+      "id": "6189d2a0-7849-5da6-97fe-8f946574a1f3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aaee596ce106df30b71ee74228f5065b",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/tips/color-picker/color-picker.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker/color-picker.gif",
+      "relativePath": "color-picker/color-picker.gif",
+      "extension": "gif",
+      "size": 10029756,
+      "prettySize": "10 MB",
+      "modifiedTime": "2018-09-04T14:55:28.970Z",
+      "accessTime": "2018-09-04T15:11:28.147Z",
+      "changeTime": "2018-09-04T14:55:28.972Z",
+      "birthTime": "2018-09-04T14:55:28.926Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/color-picker",
+      "base": "color-picker.gif",
+      "ext": ".gif",
+      "name": "color-picker",
+      "relativeDirectory": "color-picker",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4755391,
+      "blocks": 19592,
+      "atimeMs": 1536073888147.353,
+      "mtimeMs": 1536072928969.741,
+      "ctimeMs": 1536072928971.5808,
+      "birthtimeMs": 1536072928925.8394,
+      "atime": "2018-09-04T15:11:28.147Z",
+      "mtime": "2018-09-04T14:55:28.970Z",
+      "ctime": "2018-09-04T14:55:28.972Z",
+      "birthtime": "2018-09-04T14:55:28.926Z"
+    },
+    "4d1a1035-f922-58fe-a2ab-88a3dbccd016": {
+      "id": "4d1a1035-f922-58fe-a2ab-88a3dbccd016",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3acccefeb1b87730f6b5baa38e2315a2",
+        "type": "Directory",
+        "description": "Directory \"src/tips/axe-coconut\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
+      "relativePath": "axe-coconut",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-09-04T15:42:34.576Z",
+      "accessTime": "2018-09-04T15:42:42.035Z",
+      "changeTime": "2018-09-04T15:42:34.576Z",
+      "birthTime": "2018-09-04T15:37:09.891Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips",
+      "base": "axe-coconut",
+      "ext": "",
+      "name": "axe-coconut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4762601,
+      "blocks": 0,
+      "atimeMs": 1536075762035.1384,
+      "mtimeMs": 1536075754575.5547,
+      "ctimeMs": 1536075754575.5547,
+      "birthtimeMs": 1536075429890.736,
+      "atime": "2018-09-04T15:42:42.035Z",
+      "mtime": "2018-09-04T15:42:34.576Z",
+      "ctime": "2018-09-04T15:42:34.576Z",
+      "birthtime": "2018-09-04T15:37:09.891Z"
+    },
+    "de18acde-884b-59c5-aa25-533135b7b8e7": {
+      "id": "de18acde-884b-59c5-aa25-533135b7b8e7",
+      "children": [
+        "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f7d75b11c0d714d442f8b52aad731ac",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/tips/axe-coconut/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md",
+      "relativePath": "axe-coconut/index.md",
+      "extension": "md",
+      "size": 392,
+      "prettySize": "392 B",
+      "modifiedTime": "2018-09-04T15:42:19.628Z",
+      "accessTime": "2018-09-04T15:42:21.912Z",
+      "changeTime": "2018-09-04T15:42:19.628Z",
+      "birthTime": "2018-09-04T15:10:03.983Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "axe-coconut",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4762602,
+      "blocks": 8,
+      "atimeMs": 1536075741912.3389,
+      "mtimeMs": 1536075739627.908,
+      "ctimeMs": 1536075739627.908,
+      "birthtimeMs": 1536073803982.6223,
+      "atime": "2018-09-04T15:42:21.912Z",
+      "mtime": "2018-09-04T15:42:19.628Z",
+      "ctime": "2018-09-04T15:42:19.628Z",
+      "birthtime": "2018-09-04T15:10:03.983Z"
+    },
+    "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18": {
+      "id": "85637bd7-d97a-50c1-b0e2-c2d55b7b9a18",
+      "children": [],
+      "parent": "de18acde-884b-59c5-aa25-533135b7b8e7",
+      "internal": {
+        "content": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "661d0220751a8ad8e3c25723fb8d9633",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Axe Coconut",
+        "featuredImage": "./axe.gif",
+        "slug": "axe",
+        "link": "https://chrome.google.com/webstore/detail/axe-coconut/iobddmbdndbbbfjopjdgadphaoihpojp?hl=en",
+        "_PARENT": "de18acde-884b-59c5-aa25-533135b7b8e7"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nTo make it easy for everyone to test the leading edge of axe-core, we’ve introduced this new free Chrome extension, called axe Coconut. It includes our latest code changes for Shadow DOM, with experimental rules also enabled.\n",
+      "fileAbsolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/index.md"
+    },
+    "9cd7a09d-f742-5494-8183-ac657102a29d": {
+      "id": "9cd7a09d-f742-5494-8183-ac657102a29d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7243b5a3e6ed6cc2b61f067cd7a01304",
+        "type": "File",
+        "mediaType": "image/gif",
+        "description": "File \"src/tips/axe-coconut/axe.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "tips",
+      "absolutePath": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut/axe.gif",
+      "relativePath": "axe-coconut/axe.gif",
+      "extension": "gif",
+      "size": 3887688,
+      "prettySize": "3.89 MB",
+      "modifiedTime": "2018-09-04T15:42:32.329Z",
+      "accessTime": "2018-09-04T15:42:33.900Z",
+      "changeTime": "2018-09-04T15:42:32.330Z",
+      "birthTime": "2018-09-04T15:42:32.288Z",
+      "root": "/",
+      "dir": "/Users/saravieira/Projects/a11ytips.rocks/src/tips/axe-coconut",
+      "base": "axe.gif",
+      "ext": ".gif",
+      "name": "axe",
+      "relativeDirectory": "axe-coconut",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4762798,
+      "blocks": 7600,
+      "atimeMs": 1536075753900.0713,
+      "mtimeMs": 1536075752329.0754,
+      "ctimeMs": 1536075752330.4648,
+      "birthtimeMs": 1536075752287.7332,
+      "atime": "2018-09-04T15:42:33.900Z",
+      "mtime": "2018-09-04T15:42:32.329Z",
+      "ctime": "2018-09-04T15:42:32.330Z",
+      "birthtime": "2018-09-04T15:42:32.288Z"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "03e2b8e63a99a4a21a6e5d43dbdc5ca7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "363726f62617a104dcc1a1b190b2788c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "317d432363632c18ae143b23a2e3ffe5",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "906b3297e780605fdaa53ae29b58c122"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/"
+      ],
+      "5c2f7dd1-b2e8-528c-a233-b24e607eef19": [
+        "/"
+      ],
+      "6482655c-2d7a-578a-ae2d-96333c1c8020": [
+        "/"
+      ],
+      "6189d2a0-7849-5da6-97fe-8f946574a1f3": [
+        "/"
+      ],
+      "9cd7a09d-f742-5494-8183-ac657102a29d": [
+        "/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "14/path---index-6a9-DpitPXotwz89VtDaWGOGl7FMbUI",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js"
+    },
+    "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js"
+    },
+    "/Users/saravieira/Projects/a11ytips.rocks/src/pages/index.js": {
+      "query": "query usersSaravieiraProjectsA11YtipsRocksSrcPagesIndexJs3106268424 {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n  allMarkdownRemark {\n    edges {\n      node {\n        html\n        frontmatter {\n          slug\n          link\n          title\n          featuredImage {\n            publicURL\n            childImageSharp {\n              sizes(maxWidth: 630) {\n                ...GatsbyImageSharpSizes\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpSizes on ImageSharpSizes {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {}
+}

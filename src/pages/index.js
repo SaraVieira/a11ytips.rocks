@@ -9,6 +9,7 @@ import Layout from '../components/layout'
 const Body = styled.article`
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 `
 
 const Index = ({
@@ -41,8 +42,18 @@ const Index = ({
             </h3>
             <p dangerouslySetInnerHTML={{ __html: node.html }} />
           </header>
-          <figure style={{ width: '100%' }}>
-            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
+          <figure style={{ width: '200%' }}>
+            {node.frontmatter.featuredImage.childImageSharp ? (
+              <Img
+                alt={node.frontmatter.title}
+                sizes={node.frontmatter.featuredImage.childImageSharp.sizes}
+              />
+            ) : (
+              <img
+                alt={node.frontmatter.title}
+                src={node.frontmatter.featuredImage.publicURL}
+              />
+            )}
           </figure>
         </Body>
       )
@@ -67,6 +78,7 @@ export const pageQuery = graphql`
             link
             title
             featuredImage {
+              publicURL
               childImageSharp {
                 sizes(maxWidth: 630) {
                   ...GatsbyImageSharpSizes

@@ -4780,6 +4780,10 @@ gatsby-plugin-google-analytics@next:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+gatsby-plugin-google-fonts@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-0.0.4.tgz#dc1402a71f27c3ae6caee10777d10adadf74bd7c"
+
 gatsby-plugin-manifest@next:
   version "2.0.2-rc.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.2-rc.1.tgz#635cf3febe64b2d6420d6e6bbf3ade660dd5288a"
@@ -5185,6 +5189,10 @@ gh-pages@^1.1.0:
     globby "^6.1.0"
     graceful-fs "4.1.11"
     rimraf "^2.6.2"
+
+gifffer@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/gifffer/-/gifffer-1.5.1.tgz#832a3f17a056467ddd86ceed45faa989eec8010f"
 
 github-from-package@0.0.0:
   version "0.0.0"
@@ -9846,6 +9854,10 @@ require-uncached@^1.0.3:
 requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+
+reset-css@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/reset-css/-/reset-css-4.0.1.tgz#1f8456a8be478bc435ce9775b7878ec82cca6b05"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"

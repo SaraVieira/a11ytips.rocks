@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "828cccd23ad2b61a99789eb9e8488f26",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -1631,11 +1640,56 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "roboto:400,700"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gastby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "103dc213e2dfe09860d753728f7177ae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/saravieira/Projects/a11ytips.rocks",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "f716a3796da3ae21ca8f48b18e790220",
+      "version": "6bde0a6606e135e4673a84ade829c29c",
       "pluginOptions": {
         "plugins": []
       },
@@ -1667,6 +1721,10 @@
           {
             "name": "gatsby-plugin-google-analytics",
             "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "^0.0.4"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1757,6 +1815,10 @@
             "version": "^0.16.13"
           },
           {
+            "name": "reset-css",
+            "version": "^4.0.1"
+          },
+          {
             "name": "styled-components",
             "version": "^3.4.5"
           },
@@ -1810,7 +1872,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b476a69dff1b26b9d5ada634fa43783a",
+        "contentDigest": "2294074074d3c0cbe9d2a338da2947f5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1914,14 +1976,16 @@
         "description": "A website full of of sweet a11y tips",
         "siteUrl": "https://a11ytips.rocks"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-04T15:48:44.452Z",
+      "buildTime": "2018-10-09T20:06:43.362Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "96b3d782341aa40c2061b359ea610cf6",
+        "contentDigest": "e5af7f3d5f7c2301bd363cfad469acca",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1931,7 +1995,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a16e392b6a0a5099716c8b715c9ddf17",
+        "contentDigest": "076acc3c66e2b66064fef29df35c139d",
         "type": "Directory",
         "description": "Directory \"src/tips\"",
         "owner": "gatsby-source-filesystem"
@@ -1943,7 +2007,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-09-04T15:37:09.891Z",
-      "accessTime": "2018-09-04T15:48:46.482Z",
+      "accessTime": "2018-10-09T20:06:48.519Z",
       "changeTime": "2018-09-04T15:37:09.891Z",
       "birthTime": "2018-09-04T12:51:46.319Z",
       "root": "/",
@@ -1958,14 +2022,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 4701825,
       "blocks": 0,
-      "atimeMs": 1536076126482.1245,
+      "atimeMs": 1539115608518.651,
       "mtimeMs": 1536075429890.7546,
       "ctimeMs": 1536075429890.7546,
       "birthtimeMs": 1536065506318.857,
-      "atime": "2018-09-04T15:48:46.482Z",
+      "atime": "2018-10-09T20:06:48.519Z",
       "mtime": "2018-09-04T15:37:09.891Z",
       "ctime": "2018-09-04T15:37:09.891Z",
       "birthtime": "2018-09-04T12:51:46.319Z"
@@ -1975,7 +2039,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b51663894d2a0b5eb83b0023352494af",
+        "contentDigest": "6546eb4e631b74ed880f532fa8695ea0",
         "type": "Directory",
         "description": "Directory \"src/tips/axe-coconut\"",
         "owner": "gatsby-source-filesystem"
@@ -1987,7 +2051,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-09-04T15:42:34.576Z",
-      "accessTime": "2018-09-04T15:48:46.484Z",
+      "accessTime": "2018-10-09T20:06:48.522Z",
       "changeTime": "2018-09-04T15:42:34.576Z",
       "birthTime": "2018-09-04T15:37:09.891Z",
       "root": "/",
@@ -2002,14 +2066,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 4762601,
       "blocks": 0,
-      "atimeMs": 1536076126483.8079,
+      "atimeMs": 1539115608521.8938,
       "mtimeMs": 1536075754575.5547,
       "ctimeMs": 1536075754575.5547,
       "birthtimeMs": 1536075429890.736,
-      "atime": "2018-09-04T15:48:46.484Z",
+      "atime": "2018-10-09T20:06:48.522Z",
       "mtime": "2018-09-04T15:42:34.576Z",
       "ctime": "2018-09-04T15:42:34.576Z",
       "birthtime": "2018-09-04T15:37:09.891Z"
@@ -2019,7 +2083,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "15d33fa607e6b7cbf7f00141f935eaf7",
+        "contentDigest": "2fbf46f09168583ffb8bf68046d3c16d",
         "type": "Directory",
         "description": "Directory \"src/tips/color-picker\"",
         "owner": "gatsby-source-filesystem"
@@ -2031,7 +2095,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-09-04T14:55:28.926Z",
-      "accessTime": "2018-09-04T15:48:46.484Z",
+      "accessTime": "2018-10-09T20:06:48.522Z",
       "changeTime": "2018-09-04T14:55:28.926Z",
       "birthTime": "2018-09-04T14:55:20.489Z",
       "root": "/",
@@ -2046,14 +2110,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 4755373,
       "blocks": 0,
-      "atimeMs": 1536076126483.8142,
+      "atimeMs": 1539115608521.8462,
       "mtimeMs": 1536072928925.8508,
       "ctimeMs": 1536072928925.8508,
       "birthtimeMs": 1536072920488.6606,
-      "atime": "2018-09-04T15:48:46.484Z",
+      "atime": "2018-10-09T20:06:48.522Z",
       "mtime": "2018-09-04T14:55:28.926Z",
       "ctime": "2018-09-04T14:55:28.926Z",
       "birthtime": "2018-09-04T14:55:20.489Z"
@@ -2063,7 +2127,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b46f73c6ae6ad56f27ce553e1d96aee4",
+        "contentDigest": "abd05afcef0ba27c7824bcb46e119d45",
         "type": "Directory",
         "description": "Directory \"src/tips/lynx-browser\"",
         "owner": "gatsby-source-filesystem"
@@ -2075,7 +2139,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-09-04T13:00:56.532Z",
-      "accessTime": "2018-09-04T15:48:46.484Z",
+      "accessTime": "2018-10-09T20:06:48.522Z",
       "changeTime": "2018-09-04T13:00:56.532Z",
       "birthTime": "2018-09-04T12:51:46.323Z",
       "root": "/",
@@ -2090,14 +2154,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 4701833,
       "blocks": 0,
-      "atimeMs": 1536076126483.8372,
+      "atimeMs": 1539115608521.8704,
       "mtimeMs": 1536066056532.2346,
       "ctimeMs": 1536066056532.2346,
       "birthtimeMs": 1536065506322.9246,
-      "atime": "2018-09-04T15:48:46.484Z",
+      "atime": "2018-10-09T20:06:48.522Z",
       "mtime": "2018-09-04T13:00:56.532Z",
       "ctime": "2018-09-04T13:00:56.532Z",
       "birthtime": "2018-09-04T12:51:46.323Z"
@@ -2122,7 +2186,7 @@
       "size": 425,
       "prettySize": "425 B",
       "modifiedTime": "2018-09-04T15:47:19.720Z",
-      "accessTime": "2018-09-04T15:47:37.423Z",
+      "accessTime": "2018-09-06T13:01:42.253Z",
       "changeTime": "2018-09-04T15:47:19.720Z",
       "birthTime": "2018-09-04T15:10:03.983Z",
       "root": "/",
@@ -2140,11 +2204,11 @@
       "blksize": 4194304,
       "ino": 4762602,
       "blocks": 8,
-      "atimeMs": 1536076057423.17,
+      "atimeMs": 1536238902252.9614,
       "mtimeMs": 1536076039720.2427,
       "ctimeMs": 1536076039720.2427,
       "birthtimeMs": 1536073803982.6223,
-      "atime": "2018-09-04T15:47:37.423Z",
+      "atime": "2018-09-06T13:01:42.253Z",
       "mtime": "2018-09-04T15:47:19.720Z",
       "ctime": "2018-09-04T15:47:19.720Z",
       "birthtime": "2018-09-04T15:10:03.983Z"
@@ -2169,7 +2233,7 @@
       "size": 409,
       "prettySize": "409 B",
       "modifiedTime": "2018-09-04T15:47:23.949Z",
-      "accessTime": "2018-09-04T15:47:37.423Z",
+      "accessTime": "2018-09-06T13:01:42.253Z",
       "changeTime": "2018-09-04T15:47:23.949Z",
       "birthTime": "2018-09-04T13:26:49.875Z",
       "root": "/",
@@ -2187,11 +2251,11 @@
       "blksize": 4194304,
       "ino": 4755375,
       "blocks": 8,
-      "atimeMs": 1536076057423.3396,
+      "atimeMs": 1536238902253.1304,
       "mtimeMs": 1536076043948.9583,
       "ctimeMs": 1536076043948.9583,
       "birthtimeMs": 1536067609875.016,
-      "atime": "2018-09-04T15:47:37.423Z",
+      "atime": "2018-09-06T13:01:42.253Z",
       "mtime": "2018-09-04T15:47:23.949Z",
       "ctime": "2018-09-04T15:47:23.949Z",
       "birthtime": "2018-09-04T13:26:49.875Z"
@@ -2216,7 +2280,7 @@
       "size": 317,
       "prettySize": "317 B",
       "modifiedTime": "2018-09-04T15:47:28.964Z",
-      "accessTime": "2018-09-04T15:48:46.484Z",
+      "accessTime": "2018-09-06T13:01:42.253Z",
       "changeTime": "2018-09-04T15:47:28.964Z",
       "birthTime": "2018-09-04T12:51:46.323Z",
       "root": "/",
@@ -2234,11 +2298,11 @@
       "blksize": 4194304,
       "ino": 4701834,
       "blocks": 8,
-      "atimeMs": 1536076126483.9744,
+      "atimeMs": 1536238902253.2532,
       "mtimeMs": 1536076048963.856,
       "ctimeMs": 1536076048963.856,
       "birthtimeMs": 1536065506322.9705,
-      "atime": "2018-09-04T15:48:46.484Z",
+      "atime": "2018-09-06T13:01:42.253Z",
       "mtime": "2018-09-04T15:47:28.964Z",
       "ctime": "2018-09-04T15:47:28.964Z",
       "birthtime": "2018-09-04T12:51:46.323Z"
@@ -2329,7 +2393,7 @@
       "size": 761794,
       "prettySize": "762 kB",
       "modifiedTime": "2018-09-04T13:00:56.532Z",
-      "accessTime": "2018-09-04T15:47:42.997Z",
+      "accessTime": "2018-09-06T13:15:03.035Z",
       "changeTime": "2018-09-04T13:00:56.533Z",
       "birthTime": "2018-09-04T13:00:53.433Z",
       "root": "/",
@@ -2347,11 +2411,11 @@
       "blksize": 4194304,
       "ino": 4737151,
       "blocks": 1488,
-      "atimeMs": 1536076062996.7712,
+      "atimeMs": 1536239703035.2522,
       "mtimeMs": 1536066056532,
       "ctimeMs": 1536066056532.8228,
       "birthtimeMs": 1536066053432.9336,
-      "atime": "2018-09-04T15:47:42.997Z",
+      "atime": "2018-09-06T13:15:03.035Z",
       "mtime": "2018-09-04T13:00:56.532Z",
       "ctime": "2018-09-04T13:00:56.533Z",
       "birthtime": "2018-09-04T13:00:53.433Z"
@@ -2384,7 +2448,7 @@
       "size": 3887688,
       "prettySize": "3.89 MB",
       "modifiedTime": "2018-09-04T15:42:32.329Z",
-      "accessTime": "2018-09-04T15:47:37.423Z",
+      "accessTime": "2018-09-06T13:01:42.253Z",
       "changeTime": "2018-09-04T15:42:32.330Z",
       "birthTime": "2018-09-04T15:42:32.288Z",
       "root": "/",
@@ -2402,11 +2466,11 @@
       "blksize": 4194304,
       "ino": 4762798,
       "blocks": 7600,
-      "atimeMs": 1536076057423.1265,
+      "atimeMs": 1536238902252.9214,
       "mtimeMs": 1536075752329.0754,
       "ctimeMs": 1536075752330.4648,
       "birthtimeMs": 1536075752287.7332,
-      "atime": "2018-09-04T15:47:37.423Z",
+      "atime": "2018-09-06T13:01:42.253Z",
       "mtime": "2018-09-04T15:42:32.329Z",
       "ctime": "2018-09-04T15:42:32.330Z",
       "birthtime": "2018-09-04T15:42:32.288Z"
@@ -2429,7 +2493,7 @@
       "size": 10029756,
       "prettySize": "10 MB",
       "modifiedTime": "2018-09-04T14:55:28.970Z",
-      "accessTime": "2018-09-04T15:47:37.423Z",
+      "accessTime": "2018-09-06T13:01:42.253Z",
       "changeTime": "2018-09-04T14:55:28.972Z",
       "birthTime": "2018-09-04T14:55:28.926Z",
       "root": "/",
@@ -2447,34 +2511,14 @@
       "blksize": 4194304,
       "ino": 4755391,
       "blocks": 19592,
-      "atimeMs": 1536076057423.2988,
+      "atimeMs": 1536238902253.091,
       "mtimeMs": 1536072928969.741,
       "ctimeMs": 1536072928971.5808,
       "birthtimeMs": 1536072928925.8394,
-      "atime": "2018-09-04T15:47:37.423Z",
+      "atime": "2018-09-06T13:01:42.253Z",
       "mtime": "2018-09-04T14:55:28.970Z",
       "ctime": "2018-09-04T14:55:28.972Z",
       "birthtime": "2018-09-04T14:55:28.926Z"
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "de1985c3e2bacf655521c869f04f0799",
-        "description": "Plugin gatsby-plugin-offline",
-        "owner": "internal-data-bridge"
-      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -2539,7 +2583,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5d1367b3c4021f2d4ca08c7613f8d598"
+    "PLUGINS_HASH": "9f7e1f11b24a629a07cdd982a7839d45"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2573,9 +2617,9 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js"
     },
     "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js": {
       "query": "",

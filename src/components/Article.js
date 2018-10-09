@@ -10,6 +10,10 @@ const Body = styled.article`
   margin-bottom: 20px;
   padding: 70px 0;
   border-bottom: 1px solid #d8d8d8;
+
+  &:first-child {
+    border-top: 1px solid #d8d8d8;
+  }
 `
 
 const image = css`
@@ -42,17 +46,10 @@ export default ({ frontmatter: tip, html }) => (
       <Resource href={tip.link} />
     </header>
     <Figure>
-      {tip.featuredImage.childImageSharp ? (
-        <Img
-          alt={tip.title}
-          sizes={tip.featuredImage.childImageSharp.sizes}
-        />
-      ) : (
-          <StaticImage
-            data-gifffer-alt={tip.title}
-            data-gifffer={tip.featuredImage.publicURL}
-          />
-        )}
+      <StaticImage
+        data-gifffer-alt={tip.title}
+        data-gifffer={tip.featuredImage.publicURL}
+      />
     </Figure>
   </Body>
 )

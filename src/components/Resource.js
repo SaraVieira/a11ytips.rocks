@@ -22,6 +22,7 @@ const H4 = styled.h4`
   display: flex;
   align-items: center;
   padding: 0 5px;
+  margin-left: -5px;
 
   &:hover {
     background-color: #080808;

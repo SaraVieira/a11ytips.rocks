@@ -21,16 +21,13 @@
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^1.5.37",
     "gatsby-remark-images": "next",
-    "gatsby-remark-prismjs": "next",
     "gatsby-remark-relative-images": "^0.1.2",
     "gatsby-remark-responsive-iframe": "next",
     "gatsby-remark-smartypants": "next",
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
-    "gifffer": "^1.5.2",
-    "lodash": "^4.17.11",
-    "prismjs": "^1.15.0",
+    "gifffer": "^1.5.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
@@ -47,7 +44,6 @@
     "eslint": "^4.19.1",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.7.0",
-    "gh-pages": "^1.1.0",
     "prettier": "^1.12.0"
   },
   "homepage": "https://SaraVieira/a11ytips.rocks",
@@ -56,12 +52,16 @@
     "type": "git",
     "url": "git+https://github.com/SaraVieira/a11ytips.rocks.git"
   },
+  "now": {
+    "alias": "a11ytips.rocks"
+  },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --write '**/*.{md}'",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "posttest": "npm run format"
+    "posttest": "npm run format",
+    "start": "gatsby serve"
   }
 }

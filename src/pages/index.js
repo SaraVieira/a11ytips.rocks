@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Article from '../components/Article'
-
 import Layout from '../components/layout'
 
 const Index = ({

@@ -50,6 +50,12 @@ const H1 = styled.h1`
   margin-top: ${remcalc(40)};
 `
 
+const Description = styled.p`
+  width: ${remcalc(560)};
+  max-width: 100%;
+  margin-bottom: ${remcalc(40)};
+`
+
 const Header = styled.header`
   width: ${remcalc(983)};
   max-width: 80%;
@@ -69,7 +75,12 @@ const Nav = styled.nav`
   }
 `
 
-const Template = ({ location, children }) => (
+const Template = ({
+  location,
+  children,
+  description,
+  title = 'Create products for everyone.'
+}) => (
   <Fragment>
     <Header>
       <Link className="no-border" to={'/'}>
@@ -94,7 +105,16 @@ const Template = ({ location, children }) => (
           </li>
         </ul>
       </Nav>
-      <H1>Create products for everyone.</H1>
+      <H1>{title}</H1>
+      {description ? (
+        <Description>
+          We encourage submissions from creators or finders of interesting AI
+          and JavaSctipt projects. To submit you can simply create a Pull
+          Request to the{' '}
+          <a href="https://github.com/SaraVieira/a11ytips.rocks">GitHub repo</a>{' '}
+          with the content you want to add.
+        </Description>
+      ) : null}
     </Header>
     <Main>{children}</Main>
   </Fragment>

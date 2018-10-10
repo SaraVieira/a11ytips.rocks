@@ -2,18 +2,25 @@
  body {
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
-   line-height: 1.33;
+   line-height: 1.5;
    color: #595959;
    padding-top: 30px;
  }
 
  a {
-   font-size: 18px;
    color: #080808;
-   line-height: 24px;
    text-decoration: none;
    padding-bottom: 8px;
    border-bottom: 4px solid #080808;
+ }
+
+ b {
+   font-weight: bold;
+   color: #080808;
+ }
+
+ p {
+   margin: 20px 0;
  }
 
  a[aria-current='page'], a.no-border {

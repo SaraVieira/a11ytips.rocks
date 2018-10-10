@@ -1,4 +1,5 @@
 import React from 'react'
+import remcalc from 'remcalc'
 import styled, { css } from 'styled-components'
 
 const general = css`
@@ -12,16 +13,16 @@ const general = css`
 `
 
 const H4 = styled.h4`
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: ${remcalc(20)};
+  font-size: ${remcalc(18)};
   font-weight: bold;
   position: relative;
-  width: 77px;
-  height: 42px;
+  width: ${remcalc(77)};
+  height: ${remcalc(42)};
   display: flex;
   align-items: center;
-  padding: 0 5px;
-  margin-left: -5px;
+  padding: 0 ${remcalc(5)};
+  margin-left: ${remcalc(-5)};
 
   &:hover {
     background-color: #080808;
@@ -32,23 +33,23 @@ const H4 = styled.h4`
 
       &:before {
         background: #004aff;
-        left: -2.5px;
+        left: ${remcalc(-2.5)};
       }
 
       &:after {
         background: #ff007d;
         left: auto;
-        right: -2.5px;
+        right: ${remcalc(-2.5)};
       }
     }
 
     &:before {
       background: #00ffd5;
-      top: -5px;
+      top: ${remcalc(-5)};
     }
 
     &:after {
-      bottom: -5px;
+      bottom: ${remcalc(-5)};
       top: auto;
       background: #eeff00;
     }
@@ -56,18 +57,21 @@ const H4 = styled.h4`
 
   &:before,
   :after {
-    ${general} width: 82px;
-    height: 5px;
+    ${general};
+    width: ${remcalc(82)};
+    height: ${remcalc(5)};
   }
 
   a:before {
-    ${general} width: 5px;
+    ${general};
+    width: ${remcalc(5)};
     height: 100%;
     left: 0;
   }
 
   a:after {
-    ${general} width: 5px;
+    ${general};
+    width: ${remcalc(5)};
     height: 100%;
     left: auto;
     right: 0;

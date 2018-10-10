@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
+import remcalc from 'remcalc'
 import styled from 'styled-components'
 import Gifffer from 'gifffer/build/gifffer.min'
 import 'reset-css/reset.css'
@@ -35,22 +36,22 @@ if (typeof window !== 'undefined') {
   }
 }
 const StyledLogo = styled(Logo)`
-  width: 83px;
+  width: ${remcalc(83)};
 `
 
 const H1 = styled.h1`
   font-weight: bold;
-  font-size: 90px;
+  font-size: ${remcalc(90)};
   color: #080808;
-  line-height: 78px;
-  margin-bottom: 60px;
-  width: 500px;
+  line-height: ${remcalc(78)};
+  margin-bottom: ${remcalc(60)};
+  width: ${remcalc(500)};
   max-width: 100%;
-  margin-top: 40px;
+  margin-top: ${remcalc(40)};
 `
 
 const Header = styled.header`
-  width: 983px;
+  width: ${remcalc(983)};
   max-width: 80%;
   margin: auto;
 `
@@ -64,7 +65,7 @@ const Nav = styled.nav`
     display: flex;
   }
   ul li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: ${remcalc(30)};
   }
 `
 

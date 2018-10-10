@@ -1,27 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
 import is from 'styled-is'
+import remcalc from 'remcalc'
 
 const Section = styled.section`
   position: relative;
-  width: 18px;
-  height: 18px;
-  min-width: 18px;
-  left: 6px;
-  margin-bottom: 14px;
+  width: ${remcalc(18)};
+  height: ${remcalc(18)};
+  min-width: ${remcalc(18)};
+  left: ${remcalc(6)};
+  margin-bottom: ${remcalc(15)};
 `
 
 const Rectangle = styled.div`
-  width: 6px;
-  height: 6px;
+  width: ${remcalc(6)};
+  height: ${remcalc(6)};
   background-color: #080808;
   position: absolute;
 
   transform: translateY(-50%) translateX(-50%);
 
   ${is('center')`
-  top: 6px;
-  left: 6px;
+  top: ${remcalc(6)};
+  left: ${remcalc(6)};
 `};
 
   ${is('top')`

@@ -1,38 +1,39 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
+import remcalc from 'remcalc'
 import Link from './Resource'
 import Rectangles from './Rectangles'
 
 const Body = styled.article`
-  margin-bottom: 20px;
-  padding: 70px 0;
-  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: ${remcalc(20)};
+  padding: ${remcalc(70)} 0;
+  border-bottom: ${remcalc(1)} solid #d8d8d8;
 
   &:first-child {
-    border-top: 1px solid #d8d8d8;
+    border-top: ${remcalc(1)} solid #d8d8d8;
   }
 `
 
 const Title = styled.h3`
-  font-size: 48px;
+  font-size: ${remcalc(48)};
   font-weight: bold;
   line-height: 1;
   color: #080808;
-  padding-bottom: 20px;
+  padding-bottom: ${remcalc(20)};
 `
 
 const Figure = styled.figure`
-  margin-left: 40px;
-  border: 1px solid #e8e8e8;
+  margin-left: ${remcalc(40)};
+  border: ${remcalc(1)} solid #e8e8e8;
 
   @media (max-width: 900px) {
     margin-left: 0;
-    margin-top: 40px;
+    margin-top: ${remcalc(40)};
   }
 `
 
 const Wrapper = styled.section`
-  width: 983px;
+  width: ${remcalc(983)};
   max-width: 80%;
   margin: auto;
   display: flex;
@@ -46,7 +47,7 @@ const Wrapper = styled.section`
 `
 
 const Img = styled.img`
-  max-width: 426px;
+  max-width: ${remcalc(426)};
 
   @media (max-width: 900px) {
     width: 100%;

@@ -14,17 +14,17 @@ const Index = ({
   },
   location
 }) => (
-    <Layout location={location}>
-      <Helmet
-        htmlAttributes={{ lang: 'en' }}
-        meta={[{ name: 'description', content: description }]}
-        title={title}
-      />
-      {allMarkdownRemark.edges.map(({ node }) => {
-        return <Article key={node.frontmatter.slug} {...node} />
-      })}
-    </Layout>
-  )
+  <Layout location={location}>
+    <Helmet
+      htmlAttributes={{ lang: 'en' }}
+      meta={[{ name: 'description', content: description }]}
+      title={title}
+    />
+    {allMarkdownRemark.edges.map(({ node }) => {
+      return <Article key={node.frontmatter.slug} {...node} />
+    })}
+  </Layout>
+)
 
 export const pageQuery = graphql`
   query {
@@ -44,11 +44,6 @@ export const pageQuery = graphql`
             title
             featuredImage {
               publicURL
-              childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
-                }
-              }
             }
           }
         }

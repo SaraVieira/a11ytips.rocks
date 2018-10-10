@@ -11,7 +11,6 @@ const general = css`
   background: #fff;
 `
 
-
 const H4 = styled.h4`
   margin-top: 20px;
   font-size: 18px;
@@ -55,27 +54,30 @@ const H4 = styled.h4`
     }
   }
 
-  &:before, :after {
-   ${general}
-   width: 82px;
-   height: 5px;
+  &:before,
+  :after {
+    ${general} width: 82px;
+    height: 5px;
   }
 
   a:before {
-   ${general}
-   width: 5px;
-   height: 100%;
-   left: 0;
+    ${general} width: 5px;
+    height: 100%;
+    left: 0;
   }
 
   a:after {
-   ${general}
-   width: 5px;
-   height: 100%;
-   left: auto;
-   right: 0;
+    ${general} width: 5px;
+    height: 100%;
+    left: auto;
+    right: 0;
   }
 `
 
-
-export default ({ href }) => (<H4><a target="_blank" rel="noopener noreferrer" href={href}>Resource</a></H4>)
+export default ({ href, children }) => (
+  <H4>
+    <a target="_blank" rel="noopener noreferrer" href={href}>
+      {children}
+    </a>
+  </H4>
+)

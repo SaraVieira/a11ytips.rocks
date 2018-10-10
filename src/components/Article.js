@@ -7,14 +7,17 @@ import Rectangles from './Rectangles'
 const Body = styled.article`
   margin-bottom: ${remcalc(20)};
   padding: ${remcalc(70)} 0;
-  border-bottom: ${remcalc(1)} solid #d8d8d8;
+
+  &:not(:last-child) {
+    border-bottom: ${remcalc(1)} solid #d8d8d8;
+  }
 
   &:first-child {
     border-top: ${remcalc(1)} solid #d8d8d8;
   }
 `
 
-const Title = styled.h3`
+const Title = styled.h2`
   font-size: ${remcalc(48)};
   font-weight: bold;
   line-height: 1;

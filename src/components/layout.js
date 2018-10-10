@@ -48,6 +48,11 @@ const H1 = styled.h1`
   width: ${remcalc(500)};
   max-width: 100%;
   margin-top: ${remcalc(40)};
+
+  @media (max-width: 500px) {
+    font-size: ${remcalc(50)};
+    line-height: 1;
+  }
 `
 
 const Description = styled.p`
@@ -62,10 +67,17 @@ const Header = styled.header`
   margin: auto;
 `
 
-const Main = styled.main``
+const Main = styled.main`
+  margin-bottom: ${remcalc(120)};
+`
 
 const Nav = styled.nav`
   float: right;
+
+  @media (max-width: 500px) {
+    float: none;
+    margin-top: ${remcalc(40)};
+  }
 
   ul {
     display: flex;
@@ -83,7 +95,7 @@ const Template = ({
 }) => (
   <Fragment>
     <Header>
-      <Link className="no-border" to={'/'}>
+      <Link aria-label="Home" className="no-border" to={'/'}>
         <StyledLogo />
       </Link>
       <Nav>

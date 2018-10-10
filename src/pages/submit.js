@@ -13,7 +13,7 @@ const Main = styled.section`
   margin: auto;
 `
 
-const Title = styled.h3`
+const Title = styled.h2`
   font-size: 18px;
   font-weight: bold;
   line-height: 2.67;
@@ -31,7 +31,6 @@ const List = styled.ol`
 `
 const Section = styled.section`
   margin-top: ${remcalc(60)};
-  margin-bottom: ${remcalc(120)};
   display: flex;
 
   > section:not(:first-child) {

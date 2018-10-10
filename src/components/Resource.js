@@ -12,7 +12,7 @@ const general = css`
   background: #fff;
 `
 
-const H4 = styled.h4`
+const H4 = styled.h3`
   margin-top: ${remcalc(20)};
   font-size: ${remcalc(18)};
   font-weight: bold;

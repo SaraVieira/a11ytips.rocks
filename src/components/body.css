@@ -11,7 +11,13 @@
    color: #080808;
    text-decoration: none;
    padding-bottom: 8px;
+   transition: all 200ms ease;
    border-bottom: 4px solid #080808;
+ }
+
+ a:not(.no-border):hover {
+   padding-bottom: 3px;
+   border-bottom: 4px solid #00ffd5;
  }
 
  b {

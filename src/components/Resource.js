@@ -31,6 +31,10 @@ const H4 = styled.h4`
       color: white;
       padding-bottom: 0;
 
+      :hover {
+        border-bottom: none;
+      }
+
       &:before {
         background: #004aff;
         left: ${remcalc(-2.5)};

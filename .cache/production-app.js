@@ -1,18 +1,18 @@
-import { apiRunner, apiRunnerAsync } from "./api-runner-browser"
-import React, { createElement } from "react"
-import ReactDOM from "react-dom"
-import { Router, navigate } from "@reach/router"
-import { match } from "@reach/router/lib/utils"
-import { ScrollContext } from "gatsby-react-router-scroll"
-import domReady from "domready"
-import { shouldUpdateScroll, init as navigationInit } from "./navigation"
-import emitter from "./emitter"
+import { apiRunner, apiRunnerAsync } from './api-runner-browser'
+import React, { createElement } from 'react'
+import ReactDOM from 'react-dom'
+import { Router, navigate } from '@reach/router'
+import { match } from '@reach/router/lib/utils'
+import { ScrollContext } from 'gatsby-react-router-scroll'
+import domReady from 'domready'
+import { shouldUpdateScroll, init as navigationInit } from './navigation'
+import emitter from './emitter'
 window.___emitter = emitter
-import PageRenderer from "./page-renderer"
-import asyncRequires from "./async-requires"
-import loader from "./loader"
-import loadDirectlyOr404 from "./load-directly-or-404"
-import EnsureResources from "./ensure-resources"
+import PageRenderer from './page-renderer'
+import asyncRequires from './async-requires'
+import loader from './loader'
+import loadDirectlyOr404 from './load-directly-or-404'
+import EnsureResources from './ensure-resources'
 
 window.asyncRequires = asyncRequires
 window.___emitter = emitter
@@ -101,7 +101,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
         createElement(
           Router,
           {
-            basepath: __PATH_PREFIX__,
+            basepath: __PATH_PREFIX__
           },
           createElement(RouteHandler, { path: `/*` })
         )

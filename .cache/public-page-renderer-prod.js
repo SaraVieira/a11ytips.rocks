@@ -1,8 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import InternalPageRenderer from "./page-renderer"
-import loader from "./loader"
+import InternalPageRenderer from './page-renderer'
+import loader from './loader'
 
 const ProdPageRenderer = ({ location }) => {
   const pageResources = loader.getResourcesForPathnameSync(location.pathname)
@@ -10,14 +10,14 @@ const ProdPageRenderer = ({ location }) => {
     key: location.pathname,
     location,
     pageResources,
-    ...pageResources.json,
+    ...pageResources.json
   })
 }
 
 ProdPageRenderer.propTypes = {
   location: PropTypes.shape({
-    pathname: PropTypes.string.isRequired,
-  }).isRequired,
+    pathname: PropTypes.string.isRequired
+  }).isRequired
 }
 
 export default ProdPageRenderer

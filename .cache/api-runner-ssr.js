@@ -1,16 +1,30 @@
-var plugins = [{
-      plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-37411302-11"},
-    },{
-      plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"a11ytips.rocks","short_name":"a11ytips","start_url":"/","background_color":"#ffffff","theme_color":"#595959","display":"minimal-ui","icon":"src/assets/gatsby-icon.png"},
-    },{
-      plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":["roboto:400,700"]},
-    }]
+var plugins = [
+  {
+    plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+    options: { plugins: [], trackingId: 'UA-37411302-11' }
+  },
+  {
+    plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+    options: {
+      plugins: [],
+      name: 'a11ytips.rocks',
+      short_name: 'a11ytips',
+      start_url: '/',
+      background_color: '#ffffff',
+      theme_color: '#595959',
+      display: 'minimal-ui',
+      icon: 'src/assets/gatsby-icon.png'
+    }
+  },
+  {
+    plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+    options: { plugins: [] }
+  },
+  {
+    plugin: require('/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+    options: { plugins: [], fonts: ['roboto:400,700'] }
+  }
+]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

@@ -1,6 +1,6 @@
 // TODO add tests especially for handling prefixed links.
-import { match as matchPath } from "@reach/router/lib/utils"
-import stripPrefix from "./strip-prefix"
+import { match as matchPath } from '@reach/router/lib/utils'
+import stripPrefix from './strip-prefix'
 
 const pageCache = {}
 

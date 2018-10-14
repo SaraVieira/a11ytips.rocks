@@ -1,8 +1,8 @@
-import React, { createElement } from "react"
-import PropTypes from "prop-types"
-import { publicLoader } from "./loader"
-import { apiRunner } from "./api-runner-browser"
-import { onRouteUpdate, onPreRouteUpdate } from "./navigation"
+import React, { createElement } from 'react'
+import PropTypes from 'prop-types'
+import { publicLoader } from './loader'
+import { apiRunner } from './api-runner-browser'
+import { onRouteUpdate, onPreRouteUpdate } from './navigation'
 
 // Renders page and fire on(Pre)RouteUpdate APIs
 class PageRenderer extends React.Component {
@@ -40,12 +40,12 @@ class PageRenderer extends React.Component {
   render() {
     const props = {
       ...this.props,
-      pathContext: this.props.pageContext,
+      pathContext: this.props.pageContext
     }
 
     const [replacementElement] = apiRunner(`replaceComponentRenderer`, {
       props: this.props,
-      loader: publicLoader,
+      loader: publicLoader
     })
 
     const pageElement =
@@ -70,7 +70,7 @@ PageRenderer.propTypes = {
   pageResources: PropTypes.object.isRequired,
   data: PropTypes.object,
   pageContext: PropTypes.object.isRequired,
-  isMain: PropTypes.bool,
+  isMain: PropTypes.bool
 }
 
 export default PageRenderer

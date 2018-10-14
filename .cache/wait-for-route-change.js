@@ -20,5 +20,5 @@ if (typeof window !== `undefined`) {
 export {
   waitForRouteChange,
   resolveRouteChangePromise,
-  resetRouteChangePromise,
+  resetRouteChangePromise
 }

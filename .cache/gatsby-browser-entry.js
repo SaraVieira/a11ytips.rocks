@@ -1,15 +1,15 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 import Link, {
   withPrefix,
   navigate,
   push,
   replace,
-  navigateTo,
-} from "gatsby-link"
-import { waitForRouteChange } from "./wait-for-route-change"
-import PageRenderer from "./public-page-renderer"
-import parsePath from "./parse-path"
+  navigateTo
+} from 'gatsby-link'
+import { waitForRouteChange } from './wait-for-route-change'
+import PageRenderer from './public-page-renderer'
+import parsePath from './parse-path'
 
 const StaticQueryContext = React.createContext({})
 
@@ -34,7 +34,7 @@ StaticQuery.propTypes = {
   data: PropTypes.object,
   query: PropTypes.string.isRequired,
   render: PropTypes.func,
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 function graphql() {
@@ -58,5 +58,5 @@ export {
   StaticQueryContext,
   StaticQuery,
   PageRenderer,
-  waitForRouteChange,
+  waitForRouteChange
 }

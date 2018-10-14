@@ -1,20 +1,20 @@
-import React, { createElement } from "react"
-import { Router } from "@reach/router"
-import { ScrollContext } from "gatsby-react-router-scroll"
-import { shouldUpdateScroll, init as navigationInit } from "./navigation"
-import { apiRunner } from "./api-runner-browser"
-import syncRequires from "./sync-requires"
-import pages from "./pages.json"
-import loader from "./loader"
-import JSONStore from "./json-store"
-import EnsureResources from "./ensure-resources"
+import React, { createElement } from 'react'
+import { Router } from '@reach/router'
+import { ScrollContext } from 'gatsby-react-router-scroll'
+import { shouldUpdateScroll, init as navigationInit } from './navigation'
+import { apiRunner } from './api-runner-browser'
+import syncRequires from './sync-requires'
+import pages from './pages.json'
+import loader from './loader'
+import JSONStore from './json-store'
+import EnsureResources from './ensure-resources'
 
-import * as ErrorOverlay from "react-error-overlay"
+import * as ErrorOverlay from 'react-error-overlay'
 
 // Report runtime errors
 ErrorOverlay.startReportingRuntimeErrors({
   onError: () => {},
-  filename: `/commons.js`,
+  filename: `/commons.js`
 })
 ErrorOverlay.setEditorHandler(errorLocation =>
   window.fetch(
@@ -37,7 +37,7 @@ if (window.__webpack_hot_middleware_reporter__ !== undefined) {
     },
     clear() {
       ErrorOverlay.dismissBuildError()
-    },
+    }
   })
 }
 
@@ -71,7 +71,7 @@ class RouteHandler extends React.Component {
         syncRequires.components[dev404Page.componentChunkName],
         {
           pages,
-          ...this.props,
+          ...this.props
         }
       )
     }
@@ -92,7 +92,7 @@ const Root = () =>
   createElement(
     Router,
     {
-      basepath: __PATH_PREFIX__,
+      basepath: __PATH_PREFIX__
     },
     createElement(RouteHandler, { path: `/*` })
   )

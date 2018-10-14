@@ -1,14 +1,14 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import domReady from "domready"
-import { hot } from "react-hot-loader"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import domReady from 'domready'
+import { hot } from 'react-hot-loader'
 
-import socketIo from "./socketIo"
-import emitter from "./emitter"
-import { apiRunner, apiRunnerAsync } from "./api-runner-browser"
-import loader from "./loader"
-import syncRequires from "./sync-requires"
-import pages from "./pages.json"
+import socketIo from './socketIo'
+import emitter from './emitter'
+import { apiRunner, apiRunnerAsync } from './api-runner-browser'
+import loader from './loader'
+import syncRequires from './sync-requires'
+import pages from './pages.json'
 
 window.___emitter = emitter
 

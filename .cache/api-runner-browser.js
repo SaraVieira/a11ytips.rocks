@@ -2,7 +2,7 @@ const plugins = require(`./api-runner-browser-plugins`)
 const {
   getResourcesForPathname,
   getResourcesForPathnameSync,
-  getResourceURLsForPathname,
+  getResourceURLsForPathname
 } = require(`./loader`).publicLoader
 
 exports.apiRunner = (api, args = {}, defaultReturn, argTransform) => {

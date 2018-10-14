@@ -1,14 +1,14 @@
-import loader, { setApiRunnerForLoader } from "./loader"
-import redirects from "./redirects.json"
-import { apiRunner } from "./api-runner-browser"
-import emitter from "./emitter"
+import loader, { setApiRunnerForLoader } from './loader'
+import redirects from './redirects.json'
+import { apiRunner } from './api-runner-browser'
+import emitter from './emitter'
 import {
   resolveRouteChangePromise,
-  resetRouteChangePromise,
-} from "./wait-for-route-change"
-import { navigate as reachNavigate } from "@reach/router"
-import parsePath from "./parse-path"
-import loadDirectlyOr404 from "./load-directly-or-404"
+  resetRouteChangePromise
+} from './wait-for-route-change'
+import { navigate as reachNavigate } from '@reach/router'
+import parsePath from './parse-path'
+import loadDirectlyOr404 from './load-directly-or-404'
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = redirects.reduce((map, redirect) => {
@@ -82,7 +82,7 @@ const navigate = (to, options = {}) => {
   const timeoutId = setTimeout(() => {
     emitter.emit(`onDelayedLoadPageResources`, { pathname })
     apiRunner(`onRouteUpdateDelayed`, {
-      location: window.location,
+      location: window.location
     })
   }, 1000)
 
@@ -108,7 +108,7 @@ window.addEventListener(`popstate`, () => {
 function shouldUpdateScroll(prevRouterProps, { location: { pathname } }) {
   const results = apiRunner(`shouldUpdateScroll`, {
     prevRouterProps,
-    pathname,
+    pathname
   })
   if (results.length > 0) {
     return results[0]
@@ -116,7 +116,7 @@ function shouldUpdateScroll(prevRouterProps, { location: { pathname } }) {
 
   if (prevRouterProps) {
     const {
-      location: { pathname: oldPathname },
+      location: { pathname: oldPathname }
     } = prevRouterProps
     if (oldPathname === pathname) {
       return false

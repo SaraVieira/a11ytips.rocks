@@ -1,7 +1,7 @@
-import React from "react"
-import { renderToStaticMarkup } from "react-dom/server"
-import { merge } from "lodash"
-import apiRunner from "./api-runner-ssr"
+import React from 'react'
+import { renderToStaticMarkup } from 'react-dom/server'
+import { merge } from 'lodash'
+import apiRunner from './api-runner-ssr'
 // import testRequireError from "./test-require-error"
 // For some extremely mysterious reason, webpack adds the above module *after*
 // this module so that when this code runs, testRequireError is undefined.
@@ -83,7 +83,7 @@ export default (pagePath, callback) => {
     setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
-    setBodyProps,
+    setBodyProps
   })
 
   apiRunner(`onPreRenderHTML`, {
@@ -92,19 +92,19 @@ export default (pagePath, callback) => {
     getPreBodyComponents,
     replacePreBodyComponents,
     getPostBodyComponents,
-    replacePostBodyComponents,
+    replacePostBodyComponents
   })
 
   const htmlElement = React.createElement(Html, {
     ...bodyProps,
     body: ``,
     headComponents: headComponents.concat([
-      <script key={`io`} src="/socket.io/socket.io.js" />,
+      <script key={`io`} src="/socket.io/socket.io.js" />
     ]),
     preBodyComponents,
     postBodyComponents: postBodyComponents.concat([
-      <script key={`commons`} src="/commons.js" />,
-    ]),
+      <script key={`commons`} src="/commons.js" />
+    ])
   })
   htmlStr = renderToStaticMarkup(htmlElement)
   htmlStr = `<!DOCTYPE html>${htmlStr}`

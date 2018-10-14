@@ -8,24 +8,24 @@ describe(`find-page`, () => {
       {
         path: `/about/`,
         componentChunkName: `page-component---src-pages-test-js`,
-        jsonName: `about.json`,
+        jsonName: `about.json`
       },
       {
         path: `/about/me/`,
         componentChunkName: `page-component---src-pages-test-js`,
-        jsonName: `about-me.json`,
+        jsonName: `about-me.json`
       },
       {
         path: `/about/the best/`,
         componentChunkName: `page-component---src-pages-test-js`,
-        jsonName: `the-best.json`,
+        jsonName: `the-best.json`
       },
       {
         path: `/app/`,
         matchPath: `/app/*`,
         componentChunkName: `page-component---src-pages-app-js`,
-        jsonName: `app.json`,
-      },
+        jsonName: `app.json`
+      }
     ]
     findPage = pageFinderFactory(newPages)
   })
@@ -58,8 +58,8 @@ describe(`find-page`, () => {
       {
         path: `/about/`,
         componentChunkName: `page-component---src-pages-test-js`,
-        jsonName: `about.json`,
-      },
+        jsonName: `about.json`
+      }
     ]
     const findPage2 = pageFinderFactory(newPages, `/my-test-prefix`)
     expect(findPage2(`/my-test-prefix/about/`).path).toBe(`/about/`)

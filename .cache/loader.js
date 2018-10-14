@@ -1,7 +1,7 @@
-import pageFinderFactory from "./find-page"
-import emitter from "./emitter"
-import stripPrefix from "./strip-prefix"
-import prefetchHelper from "./prefetch"
+import pageFinderFactory from './find-page'
+import emitter from './emitter'
+import stripPrefix from './strip-prefix'
+import prefetchHelper from './prefetch'
 
 const preferDefault = m => (m && m.default) || m
 
@@ -97,7 +97,7 @@ const fetchResource = resourceName => {
       .then(component => {
         fetchHistory.push({
           resource: resourceName,
-          succeeded: !failed,
+          succeeded: !failed
         })
 
         if (!failedResources[resourceName]) {
@@ -194,7 +194,7 @@ const queue = {
     // prefetching this path.
     if (!prefetchTriggered[path]) {
       apiRunner(`onPrefetchPathname`, {
-        pathname: path,
+        pathname: path
       })
       prefetchTriggered[path] = true
     }
@@ -246,7 +246,7 @@ const queue = {
     if (page) {
       return [
         ...createComponentUrls(page.componentChunkName),
-        createJsonURL(jsonDataPaths[page.jsonName]),
+        createJsonURL(jsonDataPaths[page.jsonName])
       ]
     } else {
       return null
@@ -313,14 +313,14 @@ const queue = {
       if (pathScriptsCache[path]) {
         emitter.emit(`onPostLoadPageResources`, {
           page,
-          pageResources: pathScriptsCache[path],
+          pageResources: pathScriptsCache[path]
         })
         return resolve(pathScriptsCache[path])
       }
 
       // Nope, we need to load resource(s)
       emitter.emit(`onPreLoadPageResources`, {
-        path,
+        path
       })
 
       // In development we know the code is loaded already
@@ -329,7 +329,7 @@ const queue = {
         const page = findPage(path)
         const pageResources = {
           component: syncRequires.components[page.componentChunkName],
-          page,
+          page
         }
 
         // Add to the cache.
@@ -337,14 +337,14 @@ const queue = {
         devGetPageData(page.path).then(pageData => {
           emitter.emit(`onPostLoadPageResources`, {
             page,
-            pageResources,
+            pageResources
           })
           resolve(pageResources)
         })
       } else {
         Promise.all([
           getResourceModule(page.componentChunkName),
-          getResourceModule(page.jsonName),
+          getResourceModule(page.jsonName)
         ]).then(([component, json]) => {
           if (!(component && json)) {
             resolve(null)
@@ -354,7 +354,7 @@ const queue = {
           const pageResources = {
             component,
             json,
-            page,
+            page
           }
           pageResources.page.jsonURL = createJsonURL(
             jsonDataPaths[page.jsonName]
@@ -364,7 +364,7 @@ const queue = {
 
           emitter.emit(`onPostLoadPageResources`, {
             page,
-            pageResources,
+            pageResources
           })
 
           if (doingInitialRender) {
@@ -374,7 +374,7 @@ const queue = {
           }
         })
       }
-    }),
+    })
 }
 
 export const setApiRunnerForLoader = runner => {
@@ -385,7 +385,7 @@ export const setApiRunnerForLoader = runner => {
 export const publicLoader = {
   getResourcesForPathname: queue.getResourcesForPathname,
   getResourceURLsForPathname: queue.getResourceURLsForPathname,
-  getResourcesForPathnameSync: queue.getResourcesForPathnameSync,
+  getResourcesForPathnameSync: queue.getResourcesForPathnameSync
 }
 
 export default queue

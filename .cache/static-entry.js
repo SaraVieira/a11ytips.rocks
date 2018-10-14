@@ -128,7 +128,7 @@ export default (pagePath, callback) => {
       const props = {
         ...this.props,
         ...dataAndContext,
-        pathContext: dataAndContext.pageContext,
+        pathContext: dataAndContext.pageContext
       }
 
       const pageElement = createElement(
@@ -155,7 +155,7 @@ export default (pagePath, callback) => {
     createElement(
       Router,
       {
-        baseuri: `${__PATH_PREFIX__}`,
+        baseuri: `${__PATH_PREFIX__}`
       },
       createElement(RouteHandler, { path: `/*` })
     )
@@ -179,7 +179,7 @@ export default (pagePath, callback) => {
     setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
-    setBodyProps,
+    setBodyProps
   })
 
   // If no one stepped up, we'll handle it.
@@ -251,7 +251,7 @@ export default (pagePath, callback) => {
     bodyHtml,
     scripts,
     styles,
-    pathPrefix: __PATH_PREFIX__,
+    pathPrefix: __PATH_PREFIX__
   })
 
   scripts
@@ -308,7 +308,7 @@ export default (pagePath, callback) => {
               __html: fs.readFileSync(
                 join(process.cwd(), `public`, style.name),
                 `utf-8`
-              ),
+              )
             }}
           />
         )
@@ -321,7 +321,7 @@ export default (pagePath, callback) => {
     getPreBodyComponents,
     replacePreBodyComponents,
     getPostBodyComponents,
-    replacePostBodyComponents,
+    replacePostBodyComponents
   })
 
   // Add page metadata for the current page
@@ -336,7 +336,7 @@ export default (pagePath, callback) => {
       key={`script-loader`}
       id={`gatsby-script-loader`}
       dangerouslySetInnerHTML={{
-        __html: windowData,
+        __html: windowData
       }}
     />
   )
@@ -351,7 +351,7 @@ export default (pagePath, callback) => {
       key={`chunk-mapping`}
       id={`gatsby-chunk-mapping`}
       dangerouslySetInnerHTML={{
-        __html: scriptChunkMapping,
+        __html: scriptChunkMapping
       }}
     />
   )

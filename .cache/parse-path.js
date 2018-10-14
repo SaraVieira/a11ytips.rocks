@@ -18,6 +18,6 @@ export default function parsePath(path) {
   return {
     pathname: pathname,
     search: search === `?` ? `` : search,
-    hash: hash === `#` ? `` : hash,
+    hash: hash === `#` ? `` : hash
   }
 }

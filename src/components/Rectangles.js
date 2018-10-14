@@ -10,6 +10,13 @@ const Section = styled.section`
   min-width: ${remcalc(18)};
   left: ${remcalc(6)};
   margin-bottom: ${remcalc(15)};
+  opacity: 0.8;
+  transition: transform 200ms cubic-bezier(0.77, 0, 0.175, 1);
+
+  &:hover {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
 `
 
 const Rectangle = styled.div`

@@ -3,10 +3,10 @@ import remcalc from 'remcalc'
 import styled, { css } from 'styled-components'
 
 const general = css`
-  transition: all 200ms ease;
+  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
   content: '';
   position: absolute;
-  left: 0;
+  left: ${remcalc(2)};
   top: 0;
   display: block;
   background: #fff;
@@ -23,6 +23,7 @@ const H4 = styled.h3`
   align-items: center;
   padding: 0 ${remcalc(5)};
   margin-left: ${remcalc(-5)};
+  transition: background-color 150ms ease;
 
   &:hover {
     background-color: #080808;
@@ -30,6 +31,7 @@ const H4 = styled.h3`
     a {
       color: white;
       padding-bottom: 0;
+      transition: color 150ms ease;
 
       :hover {
         border-bottom: none;

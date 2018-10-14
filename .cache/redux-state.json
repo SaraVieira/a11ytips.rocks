@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "828cccd23ad2b61a99789eb9e8488f26",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -1654,14 +1663,16 @@
         "description": "A website full of of sweet a11y tips",
         "siteUrl": "https://a11ytips.rocks"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-10T20:26:18.379Z",
+      "buildTime": "2018-10-14T10:36:31.369Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7ff00a9d2f194be32e0a90262f473544",
+        "contentDigest": "1e4ac200c69227ccd90d4d147bbd4629",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1671,7 +1682,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f9ff3f30148214dd76fed9b1544e3950",
+        "contentDigest": "024dd8a41fa60a4e6d75e6f0b552c3ab",
         "type": "Directory",
         "description": "Directory \"src/tips\"",
         "owner": "gatsby-source-filesystem"
@@ -1683,7 +1694,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-09-04T15:37:09.891Z",
-      "accessTime": "2018-10-10T20:26:23.265Z",
+      "accessTime": "2018-10-14T10:36:39.029Z",
       "changeTime": "2018-09-04T15:37:09.891Z",
       "birthTime": "2018-09-04T12:51:46.319Z",
       "root": "/",
@@ -1701,11 +1712,11 @@
       "blksize": 4096,
       "ino": 4701825,
       "blocks": 0,
-      "atimeMs": 1539203183264.8567,
+      "atimeMs": 1539513399029.0823,
       "mtimeMs": 1536075429890.7546,
       "ctimeMs": 1536075429890.7546,
       "birthtimeMs": 1536065506318.857,
-      "atime": "2018-10-10T20:26:23.265Z",
+      "atime": "2018-10-14T10:36:39.029Z",
       "mtime": "2018-09-04T15:37:09.891Z",
       "ctime": "2018-09-04T15:37:09.891Z",
       "birthtime": "2018-09-04T12:51:46.319Z"
@@ -1715,7 +1726,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4862d96bcb7bd4ea27fdfd665f0deece",
+        "contentDigest": "da90a73fdce6bb242c4aaafd3e91d32e",
         "type": "Directory",
         "description": "Directory \"src/tips/axe-coconut\"",
         "owner": "gatsby-source-filesystem"
@@ -1727,7 +1738,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-10-10T15:59:35.578Z",
-      "accessTime": "2018-10-10T20:26:23.267Z",
+      "accessTime": "2018-10-14T10:36:39.033Z",
       "changeTime": "2018-10-10T15:59:35.578Z",
       "birthTime": "2018-09-04T15:37:09.891Z",
       "root": "/",
@@ -1745,11 +1756,11 @@
       "blksize": 4096,
       "ino": 4762601,
       "blocks": 0,
-      "atimeMs": 1539203183267.4878,
+      "atimeMs": 1539513399033.232,
       "mtimeMs": 1539187175577.8628,
       "ctimeMs": 1539187175577.8628,
       "birthtimeMs": 1536075429890.736,
-      "atime": "2018-10-10T20:26:23.267Z",
+      "atime": "2018-10-14T10:36:39.033Z",
       "mtime": "2018-10-10T15:59:35.578Z",
       "ctime": "2018-10-10T15:59:35.578Z",
       "birthtime": "2018-09-04T15:37:09.891Z"
@@ -1759,7 +1770,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d7ff4aae20612f12a1d41c08b8530b5c",
+        "contentDigest": "162475abb148575c216e4f81fc6cb40b",
         "type": "Directory",
         "description": "Directory \"src/tips/color-picker\"",
         "owner": "gatsby-source-filesystem"
@@ -1771,7 +1782,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-10-10T15:59:58.137Z",
-      "accessTime": "2018-10-10T20:26:23.268Z",
+      "accessTime": "2018-10-14T10:36:39.033Z",
       "changeTime": "2018-10-10T15:59:58.137Z",
       "birthTime": "2018-09-04T14:55:20.489Z",
       "root": "/",
@@ -1789,11 +1800,11 @@
       "blksize": 4096,
       "ino": 4755373,
       "blocks": 0,
-      "atimeMs": 1539203183267.5083,
+      "atimeMs": 1539513399033.2544,
       "mtimeMs": 1539187198137.038,
       "ctimeMs": 1539187198137.038,
       "birthtimeMs": 1536072920488.6606,
-      "atime": "2018-10-10T20:26:23.268Z",
+      "atime": "2018-10-14T10:36:39.033Z",
       "mtime": "2018-10-10T15:59:58.137Z",
       "ctime": "2018-10-10T15:59:58.137Z",
       "birthtime": "2018-09-04T14:55:20.489Z"
@@ -1803,7 +1814,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "353d83e99ad24fd1121b5c12dbd37347",
+        "contentDigest": "af954e2a81dceb8aade2118895a57bf3",
         "type": "Directory",
         "description": "Directory \"src/tips/lynx-browser\"",
         "owner": "gatsby-source-filesystem"
@@ -1815,7 +1826,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-10-10T16:00:04.341Z",
-      "accessTime": "2018-10-10T20:26:23.268Z",
+      "accessTime": "2018-10-14T10:36:39.033Z",
       "changeTime": "2018-10-10T16:00:04.341Z",
       "birthTime": "2018-09-04T12:51:46.323Z",
       "root": "/",
@@ -1833,11 +1844,11 @@
       "blksize": 4096,
       "ino": 4701833,
       "blocks": 0,
-      "atimeMs": 1539203183267.529,
+      "atimeMs": 1539513399033.2783,
       "mtimeMs": 1539187204340.5552,
       "ctimeMs": 1539187204340.5552,
       "birthtimeMs": 1536065506322.9246,
-      "atime": "2018-10-10T20:26:23.268Z",
+      "atime": "2018-10-14T10:36:39.033Z",
       "mtime": "2018-10-10T16:00:04.341Z",
       "ctime": "2018-10-10T16:00:04.341Z",
       "birthtime": "2018-09-04T12:51:46.323Z"
@@ -2184,26 +2195,6 @@
       "ctime": "2018-10-10T15:59:58.137Z",
       "birthtime": "2018-09-04T14:55:28.926Z"
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "de1985c3e2bacf655521c869f04f0799",
-        "description": "Plugin gatsby-plugin-offline",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -2320,10 +2311,6 @@
     "submit-0ea": "540/path---submit-0-ea-71f-B0PGAn5S2iIvSZNlIYh7ARCWnjQ"
   },
   "components": {
-    "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/node_modules/gatsby-plugin-offline/app-shell.js"
-    },
     "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/404.js"
@@ -2335,6 +2322,10 @@
     "/Users/saravieira/Projects/a11ytips.rocks/src/pages/submit.js": {
       "query": "query usersSaravieiraProjectsA11YtipsRocksSrcPagesSubmitJs3998338720 {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n}\n",
       "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/src/pages/submit.js"
+    },
+    "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/saravieira/Projects/a11ytips.rocks/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
